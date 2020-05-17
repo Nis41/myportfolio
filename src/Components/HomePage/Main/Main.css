@@ -1,0 +1,13 @@
+.mainDiv {
+  height: 55em;
+  position: relative;
+}
+
+.blueDiv {
+  height: 45em;
+  width: 40%;
+  background-color: #77b7ff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

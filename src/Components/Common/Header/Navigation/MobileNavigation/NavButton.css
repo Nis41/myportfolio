@@ -1,0 +1,21 @@
+.navButtonDiv {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.navButtonDiv ul {
+  list-style-type: none;
+}
+
+.navButtonDiv a {
+  color: black;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.navButtonDiv a i {
+  margin-right: 0.4em;
+}

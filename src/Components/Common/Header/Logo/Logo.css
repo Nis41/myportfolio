@@ -1,0 +1,13 @@
+.logoDiv {
+  position: absolute;
+  margin-left: 10%;
+  top: 25%;
+}
+
+.logoDiv a {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}

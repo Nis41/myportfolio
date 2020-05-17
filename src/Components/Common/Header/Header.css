@@ -1,0 +1,10 @@
+.header {
+  width: 100%;
+  height: 5em;
+  display: inline-flex;
+  /* border: 1px solid black; */
+  /* background-color: #fbffff; */
+  background-color: transparent;
+  z-index: 1;
+  position: absolute;
+}
