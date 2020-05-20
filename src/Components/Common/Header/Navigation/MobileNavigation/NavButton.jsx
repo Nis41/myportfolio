@@ -1,15 +1,18 @@
 import React from "react";
 import "./NavButton.css";
 
-const NavButton = () => {
+const NavButton = (props) => {
   return (
     <div className="navButtonDiv">
       <ul>
-        <li>
-          <a href="#">
-            <i className="fa fa-bars" aria-hidden="true" />
-            Menu
-          </a>
+        <li
+          className="navButton"
+          onClick={() => {
+            props.sliderOpener();
+          }}
+        >
+          <i className="fa fa-bars" aria-hidden="true" />
+          Menu
         </li>
       </ul>
     </div>

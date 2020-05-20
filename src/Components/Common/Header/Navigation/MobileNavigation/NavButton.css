@@ -1,7 +1,7 @@
 .navButtonDiv {
   position: absolute;
   right: 10%;
-  top: 25%;
+  top: 37%;
   font-size: 1.2em;
   cursor: pointer;
 }
@@ -10,12 +10,18 @@
   list-style-type: none;
 }
 
-.navButtonDiv a {
-  color: black;
+.navButton {
+  color: #fff;
   justify-content: space-around;
   text-decoration: none;
 }
 
-.navButtonDiv a i {
+.navButton i {
   margin-right: 0.4em;
+}
+
+@media screen and (min-width: 1025px) {
+  .navButtonDiv {
+    display: none;
+  }
 }

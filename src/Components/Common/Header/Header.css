@@ -1,10 +1,28 @@
 .header {
   width: 100%;
-  height: 5em;
-  display: inline-flex;
-  /* border: 1px solid black; */
-  /* background-color: #fbffff; */
-  background-color: transparent;
-  z-index: 1;
+  height: 4em;
+  background-color: black;
+  z-index: 20;
   position: absolute;
+  /* position: fixed; */
+  display: inline-flex;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .header {
+    background-color: transparent;
+    height: 5em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
 }

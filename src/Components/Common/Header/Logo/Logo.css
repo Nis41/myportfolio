@@ -1,13 +1,61 @@
 .logoDiv {
-  position: absolute;
+  /* position: absolute; */
   margin-left: 10%;
-  top: 25%;
+  margin-top: 5.3%;
+  width: 1%;
 }
 
 .logoDiv a {
-  color: black;
+  color: #fff;
   font-size: 1.5em;
   font-weight: 900;
   text-transform: uppercase;
   text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+  .logoDiv {
+    margin-top: 6%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logoDiv {
+    margin-top: 4%;
+  }
+  .logoDiv a {
+    font-size: 1.6em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logoDiv {
+    margin-top: 3%;
+  }
+  .logoDiv a {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .logoDiv {
+    margin-top: 3%;
+  }
+
+  .logoDiv a {
+    color: black;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logoDiv {
+    margin-top: 2.3%;
+    width: 2%;
+  }
+
+  .logoDiv a {
+    font-size: 1.5em;
+  }
 }

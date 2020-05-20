@@ -4,7 +4,7 @@ import "./Logo.css";
 const Logo = () => {
   return (
     <div className="logoDiv">
-      <a href="#">N</a>
+      <a>N</a>
     </div>
   );
 };

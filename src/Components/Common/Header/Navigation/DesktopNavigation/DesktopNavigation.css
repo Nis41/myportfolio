@@ -1,0 +1,93 @@
+.navigationDiv {
+  display: none;
+}
+
+@media screen and (min-width: 1025px) {
+  .navigationDiv {
+    display: block;
+    width: 72%;
+    margin-top: -0.8%;
+  }
+  .navigation {
+    width: 100%;
+    margin-left: 16%;
+  }
+  .navigationLi,
+  .CV {
+    display: inline-flex;
+    margin-left: 6%;
+  }
+
+  .navigationLi {
+    width: 10%;
+  }
+
+  .contactLi {
+    width: 13%;
+  }
+
+  .navigationLi a {
+    cursor: pointer;
+    text-decoration: none;
+    /* transition: all 0.1s ease-in-out; */
+  }
+
+  /* .navigationLi a:hover {
+    color: #0075f6;
+  } */
+
+  .navigation a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #0075f6;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .navigation a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
+  .cvBtn {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: #ec5b53;
+    /* background: transparent;*/
+    border: 1px solid #ec5b53;
+    border-radius: 5px;
+    padding: 2%;
+    width: 10em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .cvBtn:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navigationDiv {
+    width: 89%;
+  }
+  .navigation {
+    margin-left: 38%;
+    width: auto;
+  }
+
+  .navigationLi {
+    width: 8%;
+  }
+
+  .navigationLi,
+  .CV {
+    margin-left: 5%;
+  }
+  .contactLi {
+    width: 13%;
+  }
+}

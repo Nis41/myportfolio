@@ -1,12 +1,12 @@
 import React from "react";
 import Main from "./Main/Main";
-import Header from "../Common/Header/Header";
+import About from "./About/About";
 
 const HomePage = () => {
   return (
     <React.Fragment>
-      <Header />
       <Main />
+      <About />
     </React.Fragment>
   );
 };
