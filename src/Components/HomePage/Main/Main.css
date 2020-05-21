@@ -1,5 +1,5 @@
 .mainDiv {
-  height: 55em;
+  height: 53em;
   position: relative;
 }
 
@@ -31,20 +31,20 @@
 
 .textOnImage {
   position: absolute;
-  top: 25em;
+  top: 28em;
   color: white;
   text-align: center;
   transition: all 1s;
   transition-delay: 0.2s;
-  width: 100%;
+  width: 86%;
+  margin: 0 7% 0 7%;
 }
 
 .textBackground {
   background-color: rgba(0, 0, 0, 0.3);
   /* background-color: rgba(139, 131, 120, 0.3); */
   /* background-color: rgba(192, 192, 192, 0.2); */
-  width: 86%;
-  margin: 0 7% 0 7%;
+  width: 100%;
 }
 
 .textOnImage span {

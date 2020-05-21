@@ -16,13 +16,13 @@
 
 @media screen and (min-width: 480px) {
   .logoDiv {
-    margin-top: 6%;
+    margin-top: 4%;
   }
 }
 
 @media screen and (min-width: 600px) {
   .logoDiv {
-    margin-top: 4%;
+    margin-top: 3%;
   }
   .logoDiv a {
     font-size: 1.6em;
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 800px) {
   .logoDiv {
-    margin-top: 3%;
+    margin-top: 2%;
   }
   .logoDiv a {
     font-size: 1.7em;

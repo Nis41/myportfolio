@@ -32,16 +32,16 @@
     /* transition: all 0.1s ease-in-out; */
   }
 
-  /* .navigationLi a:hover {
+  .navigationLi a {
     color: #0075f6;
-  } */
+  }
 
   .navigation a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 3px;
     left: 50%;
     background: #0075f6;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -51,19 +51,20 @@
     width: 100%;
     left: 0;
   }
-
   .cvBtn {
-    color: black;
-    font-size: 1.1em;
+    background: #ec5b53;
+    color: #fff;
+    /* display: inline-block; */
+    padding: 14px 30px;
+    /* font-family: "Muli", sans-serif; */
+    font-size: 1em;
     font-weight: 600;
-    background-color: #ec5b53;
-    /* background: transparent;*/
-    border: 1px solid #ec5b53;
-    border-radius: 5px;
-    padding: 2%;
-    width: 10em;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    text-align: center;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
   }
   .cvBtn:focus {
     outline: none;

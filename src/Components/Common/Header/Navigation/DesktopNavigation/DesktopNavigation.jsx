@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./DesktopNavigation.css";
 
 const DesktopNavigation = () => {
@@ -8,16 +8,16 @@ const DesktopNavigation = () => {
       <nav className="navigation">
         <ul className="navigationUl">
           <li className="navigationLi">
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li className="navigationLi">
-            <Link to="/about">About</Link>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li className="navigationLi">
-            <Link to="/skills">Skills</Link>
+            <NavLink to="/skills">Skills</NavLink>
           </li>
           <li className="navigationLi contactLi">
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <li className="CV">
             <button className="cvBtn">Download CV</button>

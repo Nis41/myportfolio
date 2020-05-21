@@ -1,0 +1,178 @@
+.aboutMeDiv {
+  height: 52em;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+
+.aboutMeText {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #727272;
+  margin: 10% 7%;
+  line-height: 1.7em;
+  /* text-align: center; */
+}
+
+.moreBtn {
+  background-color: #0075f6;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8em 3em;
+  margin-left: 34%;
+}
+
+.moreBtn:hover {
+  text-decoration: none;
+}
+
+.imageDiv {
+  width: 80%;
+  margin: 10%;
+  height: 20em;
+}
+
+.imageDiv img {
+  width: 100%;
+  height: 100%;
+}
+
+.gridImageOne,
+.gridImageTwo {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .aboutMeText {
+    margin: 8% 10%;
+  }
+
+  .moreBtn {
+    margin-left: 38%;
+  }
+  .imageDiv {
+    height: 23em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .aboutMeText {
+    margin: 7% 8%;
+  }
+  .moreBtn {
+    margin-left: 40%;
+  }
+  .imageDiv {
+    margin-top: 8%;
+    height: 25em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .aboutMeText {
+    margin: 5% 8%;
+  }
+  .moreBtn {
+    margin-left: 42%;
+  }
+  .imageDiv {
+    margin-top: 7%;
+    height: 30em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .title {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+
+  .aboutMeText {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #727272;
+    margin: 6% 7%;
+    width: 30%;
+    height: 15em;
+    position: absolute;
+    right: 0;
+    letter-spacing: 1.5px;
+  }
+
+  .moreBtn {
+    background-color: #0075f6;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8em 3em;
+    margin-left: 34%;
+    position: absolute;
+    left: 29%;
+    margin-top: 34%;
+    font-size: 1.2em;
+  }
+  .moreBtn:hover {
+    text-decoration: none;
+  }
+  .imageDiv {
+    width: 35%;
+    margin: 10%;
+    height: 24em;
+    margin-top: 6%;
+  }
+  .gridImageOne,
+  .gridImageTwo {
+    display: block;
+  }
+  .gridImageOne {
+    opacity: 0.3;
+    position: absolute;
+    right: -13%;
+    top: -45%;
+    height: 2em;
+  }
+  .gridImageOne img,
+  .gridImageTwo img {
+    height: 13em;
+  }
+  .gridImageTwo {
+    opacity: 0.5;
+    position: absolute;
+    left: 3%;
+    margin-top: -8%;
+    height: 2em;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .imageDiv {
+    height: 28em;
+    margin-top: 5%;
+    width: 32%;
+  }
+  .aboutMeText {
+    line-height: 2.1em;
+    font-weight: 800;
+    font-size: 1.3em;
+    width: 35%;
+    margin-top: 7%;
+  }
+  .moreBtn {
+    margin-top: 27%;
+    left: 24%;
+  }
+  .gridImageTwo {
+    margin-top: -6%;
+    line-height: 2em;
+  }
+  .gridImageTwo img {
+    height: 15em;
+  }
+}

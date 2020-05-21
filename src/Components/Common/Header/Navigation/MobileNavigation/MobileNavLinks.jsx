@@ -29,7 +29,7 @@ const MobileNavLinks = (props) => {
             <Link to="/contact">Contact</Link>
           </li>
           <li className="navigationLi">
-            <Link to="#">Download CV</Link>
+            <Link>Download CV</Link>
           </li>
         </ul>
       </nav>

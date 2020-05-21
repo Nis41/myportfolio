@@ -5,7 +5,7 @@ const TextOnImage = (props) => {
   // if (imagePath === props.Img1) {
   if (true) {
     return (
-      <div className="textOnImage">
+      <div className="textOnImage animated bounceInLeft">
         <div className="textBackground">
           <h4>Hello</h4>
           <h2>
@@ -21,7 +21,7 @@ const TextOnImage = (props) => {
     );
   } else {
     return (
-      <div className="textOnImage">
+      <div className="textOnImage animated bounceInLeft">
         <div className="textBackground">
           <h4>I'm</h4>
           <h2>
