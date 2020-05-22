@@ -16,11 +16,11 @@ const About = () => {
         </div>
         I am Nisarg Hiteshkumar Patel, A freelance full stack web developer, I
         have completed my bachlors degree in computer science at Department of
-        Computer Science , Hngu. currently I am doing my masters
+        Computer Science , Hngu. currently I am doing my masters.
+        <NavLink to="/about" className="moreBtn">
+          More
+        </NavLink>
       </p>
-      <NavLink to="/about" className="moreBtn">
-        More
-      </NavLink>
 
       <div className="imageDiv">
         <img src={aboutImage} alt="AboutImage" />

@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1025px) {
+  .title {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+}

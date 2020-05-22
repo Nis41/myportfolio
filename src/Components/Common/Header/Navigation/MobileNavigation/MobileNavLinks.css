@@ -2,10 +2,10 @@
   position: absolute;
   background-color: black;
   width: 100%;
-  height: 20em;
+  height: auto;
   z-index: 10;
   margin-top: -600px;
-  padding-top: 2em;
+  padding-top: 1.2em;
   /* display: none; */
   transition: margin-top 0.5s ease-in-out;
 }
@@ -44,21 +44,11 @@
 }
 
 @media screen and (min-width: 600px) {
-  .mobileSlider {
-    padding-top: 0;
-    height: 21em;
-  }
 }
 
 @media screen and (min-width: 800px) {
-  .mobileSlider {
-    height: 25em;
-  }
 }
 @media screen and (min-width: 925px) {
-  .mobileSlider {
-    height: 27em;
-  }
 }
 
 @media screen and (min-width: 1025px) {
