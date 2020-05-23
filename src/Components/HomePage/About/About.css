@@ -37,6 +37,12 @@
   margin: 10%;
   margin-top: 30%;
   height: 20em;
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.imageDiv:hover {
+  box-shadow: none;
 }
 
 .imageDiv img {

@@ -13,7 +13,7 @@ const ImageDiv = (props) => {
           transitionEnterTimeout={300}
           transitionLeaveTimeout={300}
         >
-          <img src={props.imagePath} alt="image" />
+          <img src={props.imagePath} alt="myImage" />
           {/* {props.imagePath} */}
         </ReactCSSTransitionGroup>
       </div>

@@ -1,0 +1,26 @@
+.testimonialsDiv {
+  padding: 10%;
+}
+
+@media screen and (min-width: 480px) {
+  .testimonialsDiv {
+    padding-top: 7%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .testimonialsDiv {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .testimonialsDiv {
+    padding-top: 3%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .testimonialsDiv {
+    padding-top: 5%;
+  }
+}

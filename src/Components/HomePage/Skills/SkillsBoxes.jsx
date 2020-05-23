@@ -10,7 +10,7 @@ const SkillsBoxes = () => {
     <div className="row boxesDiv">
       <div class="col-6 col-md-12 col-lg-2 box firstBox otherBoxes">
         <div className="service-29128 text-center">
-          <img src={reactImg} className="skillImage" />
+          <img src={reactImg} className="skillImage" alt="skillImage" />
           <h3 className="skillTitle">React.js</h3>
           <p className="skillDesc">
             React.js is a JavaScript library for building user interfaces. React
@@ -20,7 +20,7 @@ const SkillsBoxes = () => {
       </div>
       <div class="col-6 col-md-12 col-lg-2 box otherBoxes">
         <div className="service-29128 text-center">
-          <img src={nodeImg} className="skillImage" />
+          <img src={nodeImg} className="skillImage" alt="skillImage" />
           <h3 className="skillTitle">Node.js</h3>
           <p className="skillDesc">
             Node.js is an open-source, cross-platform, JavaScript runtime
@@ -30,7 +30,7 @@ const SkillsBoxes = () => {
       </div>
       <div class="col-12 col-md-12 col-lg-2 box middleBox">
         <div className="service-29128 text-center">
-          <img src={pythonImg} className="skillImage" />
+          <img src={pythonImg} className="skillImage" alt="skillImage" />
           <h3 className="skillTitle">Python</h3>
           <p className="skillDesc">
             Python is an interpreted, high-level, general-purpose programming
@@ -41,7 +41,7 @@ const SkillsBoxes = () => {
       </div>
       <div class="col-6 col-md-12 col-lg-2 box fourthBox">
         <div className="service-29128 text-center">
-          <img src={mysqlImg} className="skillImage" />
+          <img src={mysqlImg} className="skillImage" alt="skillImage" />
           <h3 className="skillTitle">MySQL</h3>
           <p className="skillDesc">
             MySQL is an open-source relational database management system.
@@ -50,7 +50,7 @@ const SkillsBoxes = () => {
       </div>
       <div class="col-6 col-md-12 col-lg-2 box">
         <div className="service-29128 text-center">
-          <img src={mongoImg} className="skillImage" />
+          <img src={mongoImg} className="skillImage" alt="skillImage" />
           <h3 className="skillTitle">MongoDB</h3>
           <p className="skillDesc">
             MongoDB is a cross-platform document-oriented database and NOSQL

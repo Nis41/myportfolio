@@ -1,0 +1,148 @@
+.deskTesti {
+  display: none;
+}
+
+@media screen and (min-width: 1025px) {
+  .deskTesti {
+    display: block;
+    width: 100%;
+    padding-bottom: 0%;
+  }
+  .testiDesktopDiv {
+    width: 100%;
+    display: flex;
+  }
+  .testiContentMainDesk {
+    margin-top: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 50%;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 2em 1.2em;
+  }
+  .contentOneDesk {
+    height: auto;
+    display: flex;
+    /* border: 1px solid #000; */
+  }
+
+  .testiImageDivDesk {
+    /* border: 1px solid black; */
+    padding-top: 1%;
+    flex: 1;
+  }
+
+  .testiImageDivDesk img {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    margin-left: 18%;
+  }
+
+  .testiNameDivDesk {
+    padding-top: 1%;
+    /* padding-left: 8%; */
+    flex: 2;
+  }
+  .testiNameDesk {
+    font-size: 1.3em;
+    /* color: #0075f6; */
+    color: #77b7ff;
+    margin: 0;
+    margin-left: 14%;
+    line-height: 1.2em;
+  }
+  .testiPostDesk {
+    font-size: 1em;
+    margin-top: 15px;
+    margin-left: 14%;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    color: #abb2be;
+  }
+  .testiPlaceDesk {
+    margin: 0;
+    margin-left: 14%;
+    font-size: 0.9em;
+    color: #abb2be;
+  }
+
+  .contentTwoDesk {
+    height: 8em;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .testiReviewDesk {
+    color: #10285d;
+    font-size: 0.9em;
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+
+  .moveBtnDesk {
+    height: 50px;
+    width: 50px;
+    /* display: none; */
+    margin-top: 2%;
+    background: #fff !important;
+    color: #77b7ff !important;
+    border: 2px solid #f5f5f5 !important;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+  .moveBtnDesk:hover {
+    background: #77b7ff !important;
+    color: #fff !important;
+  }
+
+  .leftDesk {
+    left: 85%;
+  }
+
+  .rightDesk {
+    right: 2%;
+  }
+  .leftSpanDesk {
+    margin-right: 3px;
+  }
+
+  .rightSpanDesk {
+    margin-left: 3px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testiImageDivDesk {
+    padding-top: 0%;
+  }
+  .testiImageDivDesk img {
+    height: 6em;
+    width: 6em;
+    margin-left: 35%;
+  }
+  .testiNameDesk {
+    margin-left: 30%;
+  }
+
+  .testiPostDesk {
+    margin-left: 30%;
+  }
+
+  .testiPlaceDesk {
+    margin-left: 30%;
+  }
+
+  .moveBtnDesk {
+    margin-top: 5%;
+  }
+
+  .leftDesk {
+    left: 89%;
+  }
+}

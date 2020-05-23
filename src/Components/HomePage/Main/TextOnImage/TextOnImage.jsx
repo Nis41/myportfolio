@@ -1,7 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const TextOnImage = (props) => {
-  const imagePath = props.imagePath;
+  // const imagePath = props.imagePath;
   // if (imagePath === props.Img1) {
   if (true) {
     return (
@@ -13,9 +14,9 @@ const TextOnImage = (props) => {
             <span> Nisarg H Patel</span>
           </h2>
           <h3>A Freelance Web Developer</h3>
-          <a href="#" className="hireMe hvr-rectangle-out">
+          <NavLink to="/contact" className="hireMe hvr-rectangle-out">
             Hire Me
-          </a>
+          </NavLink>
         </div>
       </div>
     );
@@ -29,9 +30,9 @@ const TextOnImage = (props) => {
             Web Developer
           </h2>
           <h3>from Patan</h3>
-          <a href="#" className="hireMe">
+          <NavLink to="/contact" className="hireMe hvr-rectangle-out">
             Hire Me
-          </a>
+          </NavLink>
         </div>
       </div>
     );
