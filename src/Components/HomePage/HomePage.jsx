@@ -3,6 +3,7 @@ import Main from "./Main/Main";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Testimonials from "./Testimonials/Testimonials";
+import Discuss from "./Discuss/Discuss";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
       <About />
       <Skills />
       <Testimonials />
+      <Discuss />
     </React.Fragment>
   );
 };

@@ -8,7 +8,9 @@ const DesktopNavigation = () => {
       <nav className="navigation">
         <ul className="navigationUl">
           <li className="navigationLi">
-            <NavLink to="/">Home</NavLink>
+            <NavLink exact to="/">
+              Home
+            </NavLink>
           </li>
           <li className="navigationLi">
             <NavLink to="/about">About</NavLink>

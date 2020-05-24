@@ -40,7 +40,8 @@
 
 @media screen and (min-width: 1025px) {
   .logoDiv {
-    margin-top: 3%;
+    margin-top: 1%;
+    padding-top: 0;
   }
 
   .logoDiv a {
@@ -51,7 +52,8 @@
 
 @media screen and (min-width: 1280px) {
   .logoDiv {
-    margin-top: 2.3%;
+    margin-top: 0.9%;
+    padding-top: 0;
     width: 2%;
   }
 

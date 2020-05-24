@@ -7,10 +7,17 @@
     display: block;
     width: 72%;
     margin-top: -0.8%;
+    margin-top: 0;
+    padding-top: 0;
   }
   .navigation {
     width: 100%;
     margin-left: 16%;
+  }
+  .navigationLi a {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
   }
   .navigationLi,
   .CV {
@@ -19,6 +26,7 @@
   }
 
   .navigationLi {
+    padding-top: 0%;
     width: 10%;
   }
 
@@ -32,10 +40,6 @@
     /* transition: all 0.1s ease-in-out; */
   }
 
-  .navigationLi a {
-    color: #0075f6;
-  }
-
   .navigation a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
@@ -43,6 +47,7 @@
     display: block;
     height: 3px;
     left: 50%;
+    position: relative;
     background: #0075f6;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
@@ -51,11 +56,22 @@
     width: 100%;
     left: 0;
   }
+  .navigationLi .active:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0%;
+    position: relative;
+    background: #0075f6;
+    width: 100%;
+  }
   .cvBtn {
     background: #4876ff;
     background: #ef7b75;
-    background: #ed6b64;
     background: #ec5b53;
+    background: #ed6b64;
     color: #fff;
     padding: 14px 30px;
     font-size: 1em;
@@ -66,6 +82,9 @@
     color: black;
     transition: 0.5s;
     cursor: pointer;
+  }
+  .cvBtn:hover {
+    background: #ec5b53;
   }
   .cvBtn:focus {
     outline: none;

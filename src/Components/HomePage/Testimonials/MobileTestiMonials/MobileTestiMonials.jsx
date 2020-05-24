@@ -136,7 +136,7 @@ const MobileTestiMonials = () => {
           <i class="fa fa-chevron-left leftSpan" aria-hidden="true"></i>
         </a>
         <a
-          class="carousel-control-next moveBtn"
+          class="carousel-control-next moveBtn right"
           href="#carouselExampleControls"
           role="button"
           data-slide="next"

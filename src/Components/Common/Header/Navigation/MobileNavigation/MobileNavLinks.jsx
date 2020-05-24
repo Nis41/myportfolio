@@ -1,38 +1,48 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./MobileNavLinks.css";
 
 const MobileNavLinks = (props) => {
+  const bgClass = props.isSliderOpen ? "mobileSliderBg" : "";
   const divClass = props.isSliderOpen ? "mobileSlider open" : "mobileSlider";
   return (
-    <div className={divClass}>
-      <div className="closeBtnDiv">
-        <i
-          className={`fa fa-times-circle`}
-          onClick={() => {
-            props.sliderCloser();
-          }}
-        ></i>
+    <div
+      className={bgClass}
+      onClick={() => {
+        props.sliderCloser();
+      }}
+    >
+      <div className={divClass}>
+        <div className="closeBtnDiv">
+          <i
+            className={`fa fa-times-circle`}
+            onClick={() => {
+              props.sliderCloser();
+            }}
+          ></i>
+        </div>
+        <nav className="navigationMob">
+          <ul className="navigationUlMob">
+            <li className="navigationLiMob">
+              <NavLink exact to="/">
+                Home
+              </NavLink>
+            </li>
+            <li className="navigationLiMob">
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li className="navigationLiMob">
+              <NavLink to="/skills">Skills</NavLink>
+            </li>
+            <li className="navigationLiMob">
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+            <li className="navigationLiMob">
+              <Link to="">Download CV</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav className="navigation">
-        <ul className="navigationUl">
-          <li className="navigationLi">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="navigationLi">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="navigationLi">
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li className="navigationLi">
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li className="navigationLi">
-            <Link>Download CV</Link>
-          </li>
-        </ul>
-      </nav>
     </div>
   );
 };

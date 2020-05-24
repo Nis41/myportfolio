@@ -8,7 +8,20 @@ import "./Header.css";
 class Header extends Component {
   state = {
     isSliderOpen: false,
+    scrolled: false,
   };
+
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const top = window.scrollY <= 400;
+      if (top) {
+        this.setState({ scrolled: false });
+      } else {
+        this.setState({ scrolled: true });
+      }
+    });
+  }
+
   sliderOpener = () => {
     this.setState({ isSliderOpen: true });
   };
@@ -18,7 +31,7 @@ class Header extends Component {
 
   render() {
     return (
-      <div className="header">
+      <div className={this.state.scrolled ? `scrolledHeader` : `header`}>
         <Logo />
         <DesktopNavigation />
         <NavButton sliderOpener={this.sliderOpener} />
