@@ -1,13 +1,149 @@
 .discussMainDiv {
-  height: 30em;
-  border: 1px solid black;
+  height: 20em;
+  background-image: url(./Images/banner3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.discussBgDiv {
-  height: 23em;
-}
-
-.discussBgDiv img {
-  height: 100%;
+.discussContentDiv {
+  position: absolute;
   width: 100%;
+}
+
+.discussText {
+  text-align: center;
+  padding-top: 14%;
+}
+
+.discussText h1 {
+  color: #0075f6;
+  color: #3290f7;
+  color: #1982f6;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 2em;
+  margin: 0;
+}
+
+.discussText h3 {
+  color: #0075f6;
+  color: #3290f7;
+  color: #1982f6;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 2.5;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.discussBtn {
+  /* flex: 1; */
+  text-align: center;
+}
+
+.whatsappBtn {
+  background-color: #0075f6;
+  background-color: #3290f7;
+  background-color: #1982f6;
+  color: #fff;
+  padding: 0.8em 2em;
+  font-size: 1.1em;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 0.8em;
+  transition: all 0.3s ease;
+}
+
+.whatsappBtn:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  .discussText {
+    padding-top: 10%;
+  }
+  .discussText h1 {
+    font-size: 1.8em;
+  }
+
+  .discussText h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .discussMainDiv {
+    height: 23em;
+  }
+
+  .discussContentDiv {
+    height: 17em;
+  }
+
+  .discussText {
+    padding-top: 10%;
+  }
+  .discussText h1 {
+    font-size: 2.2em;
+  }
+
+  .discussText h3 {
+    font-size: 1.8em;
+  }
+  .whatsappBtn {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .discussMainDiv {
+    padding-top: 0;
+    height: 23.5em;
+  }
+
+  .discussContentDiv {
+    height: 25em;
+  }
+
+  .discussText {
+    padding-top: 6%;
+  }
+
+  .discussText h1 {
+    font-size: 2.5em;
+    line-height: 2.5em;
+  }
+
+  .discussText h3 {
+    font-size: 2em;
+    line-height: 2.5;
+  }
+
+  .whatsappBtn {
+    padding: 0.8em 3em;
+    font-size: 1.3em;
+    margin-top: 0.8em;
+    transition: all 0.3s ease;
+  }
+
+  .whatsappBtn:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .discussText {
+    padding-top: 2.4%;
+  }
+
+  .discussText h1 {
+    font-size: 3em;
+  }
 }
