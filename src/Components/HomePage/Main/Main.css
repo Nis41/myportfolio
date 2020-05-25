@@ -16,7 +16,7 @@
   height: 40em;
   width: 86%;
   position: relative;
-  top: 10em;
+  top: 6em;
   margin: 0 7% 0 7%;
   background-color: transparent;
   /* z-index: 5; */
@@ -143,9 +143,18 @@
 
   .textOnImage a {
     color: #0075f6;
+    font-size: 1.2em;
     border: 1.5px solid #0075f6;
-    padding: 7px 20px;
+    padding: 9px 20px;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
   }
+
+  /* .textOnImage a:hover {
+    color: #fff;
+    background-color: #0075f6;
+    border: none;
+  } */
 }
 
 @media screen and (min-width: 1280px) {

@@ -14,7 +14,7 @@ const TextOnImage = (props) => {
             <span> Nisarg H Patel</span>
           </h2>
           <h3>A Freelance Web Developer</h3>
-          <NavLink to="/contact" className="hireMe hvr-rectangle-out">
+          <NavLink to="/contact" className="hireMe hvr-bounce-to-right">
             Hire Me
           </NavLink>
         </div>
@@ -30,7 +30,7 @@ const TextOnImage = (props) => {
             Web Developer
           </h2>
           <h3>from Patan</h3>
-          <NavLink to="/contact" className="hireMe hvr-rectangle-out">
+          <NavLink to="/contact" className="hireMe">
             Hire Me
           </NavLink>
         </div>

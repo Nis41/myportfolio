@@ -11,7 +11,7 @@ const MobileTestiMonials = () => {
   return (
     <div className="mobTesti">
       <div
-        id="carouselExampleControls"
+        id="carouselExampleIndicators"
         class="carousel slide"
         data-ride="carousel"
       >
@@ -127,9 +127,10 @@ const MobileTestiMonials = () => {
             </div>
           </div>
         </div>
+
         <a
           class="carousel-control-prev moveBtn left"
-          href="#carouselExampleControls"
+          href="#carouselExampleIndicators"
           role="button"
           data-slide="prev"
         >
@@ -137,7 +138,7 @@ const MobileTestiMonials = () => {
         </a>
         <a
           class="carousel-control-next moveBtn right"
-          href="#carouselExampleControls"
+          href="#carouselExampleIndicators"
           role="button"
           data-slide="next"
         >

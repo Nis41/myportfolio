@@ -1,6 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
 import Header from "./Components/Common/Header/Header";
+import Footer from "./Components/Common/Footer/Footer";
 import HomePage from "./Components/HomePage/HomePage";
 import AboutPage from "./Components/AboutPage/AboutPage";
 import SkillsPage from "./Components/SkillsPage/SkillsPage";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" component={ContactPage} />
         <Route path="/" exact component={HomePage} />
       </div>
+      <Footer />
     </div>
   );
 }

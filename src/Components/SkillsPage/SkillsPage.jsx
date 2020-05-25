@@ -2,7 +2,7 @@ import React from "react";
 
 const SkillsPage = () => {
   return (
-    <div>
+    <div style={{ margin: "20%" }}>
       <h1>SkillsPage</h1>
     </div>
   );

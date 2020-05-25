@@ -1,8 +1,12 @@
 .discussMainDiv {
-  height: 20em;
+  height: 22em;
   background-image: url(./Images/banner3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  background: #77b7ff;
+  background: #324a5f;
+  background: #19334b;
+  background: #001d38;
 }
 
 .discussContentDiv {
@@ -19,8 +23,11 @@
   color: #0075f6;
   color: #3290f7;
   color: #1982f6;
+  color: black;
+  color: #10285d;
+  color: white;
   font-size: 1.5em;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 2em;
   margin: 0;
 }
@@ -29,8 +36,10 @@
   color: #0075f6;
   color: #3290f7;
   color: #1982f6;
+  color: #10285d;
+  color: white;
   font-size: 1.3em;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 2.5;
   margin: 0;
   letter-spacing: 1px;
@@ -45,6 +54,7 @@
   background-color: #0075f6;
   background-color: #3290f7;
   background-color: #1982f6;
+  /* background-color: #10285d; */
   color: #fff;
   padding: 0.8em 2em;
   font-size: 1.1em;
@@ -63,6 +73,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .discussMainDiv {
+    height: 24em;
+  }
   .discussText {
     padding-top: 10%;
   }
@@ -77,7 +90,7 @@
 
 @media screen and (min-width: 600px) {
   .discussMainDiv {
-    height: 23em;
+    height: 29em;
   }
 
   .discussContentDiv {
@@ -105,7 +118,7 @@
 @media screen and (min-width: 1025px) {
   .discussMainDiv {
     padding-top: 0;
-    height: 23.5em;
+    height: 30em;
   }
 
   .discussContentDiv {
@@ -139,11 +152,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .discussMainDiv {
+    height: 28em;
+  }
   .discussText {
     padding-top: 2.4%;
   }
 
   .discussText h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
