@@ -1,9 +1,12 @@
 import React from "react";
+import PageTitleBg from "../Common/PageTitleBg/PageTitleBg";
+// import colorGridImage from "../HomePage/About/Images/color_grid.png";
+import "./AboutPage.css";
 
 const AboutPage = () => {
   return (
-    <div>
-      <h1 style={{ margin: "20%" }}>AboutPage</h1>
+    <div className="aboutPageMain">
+      <PageTitleBg pageTitle="About Me" />
     </div>
   );
 };

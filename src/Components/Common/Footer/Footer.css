@@ -8,8 +8,7 @@
   /* height: 46em; */
   height: auto;
   margin: 0;
-  padding: 0;
-  padding-left: 5%;
+  padding: 15% 0 0 5%;
 }
 
 .footerContentMain {
@@ -49,7 +48,7 @@
   font-size: 1.1em;
   line-height: 40px;
   border: 1px solid #334a60;
-  padding: 3%;
+  padding: 3% 4%;
   border-radius: 50%;
   cursor: pointer;
   background: transparent;
@@ -118,6 +117,9 @@
 }
 
 @media screen and (min-width: 480px) {
+  .footerMainDiv {
+    padding: 10% 0 0 5%;
+  }
   .tarif {
     font-size: 0.8em;
     padding-left: 18%;
@@ -197,6 +199,7 @@
 
   .github:hover {
     background-color: #24292e;
+    background-color: darkslategray;
   }
 
   .footerTitle {

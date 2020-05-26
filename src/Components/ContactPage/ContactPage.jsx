@@ -1,9 +1,10 @@
 import React from "react";
-
+import PageTitleBg from "../Common/PageTitleBg/PageTitleBg";
+import "./ContactPage.css";
 const ContactPage = () => {
   return (
-    <div style={{ margin: "20%" }}>
-      <h1>ContactPage</h1>
+    <div className="contactPageMain">
+      <PageTitleBg pageTitle="Contact Me" />
     </div>
   );
 };

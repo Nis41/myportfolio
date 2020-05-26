@@ -1,5 +1,5 @@
 .discussMainDiv {
-  height: 22em;
+  height: 20em;
   background-image: url(./Images/banner3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 
 @media screen and (min-width: 480px) {
   .discussMainDiv {
-    height: 24em;
+    height: 22em;
   }
   .discussText {
     padding-top: 10%;
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 600px) {
   .discussMainDiv {
-    height: 29em;
+    height: 27em;
   }
 
   .discussContentDiv {
@@ -118,7 +118,7 @@
 @media screen and (min-width: 1025px) {
   .discussMainDiv {
     padding-top: 0;
-    height: 30em;
+    height: 25em;
   }
 
   .discussContentDiv {
@@ -153,7 +153,7 @@
 
 @media screen and (min-width: 1280px) {
   .discussMainDiv {
-    height: 28em;
+    height: 23em;
   }
   .discussText {
     padding-top: 2.4%;
