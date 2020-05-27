@@ -13,8 +13,8 @@ class Header extends Component {
 
   componentDidMount() {
     window.addEventListener("scroll", () => {
-      if (window.screen.availWidth <= 1025) {
-        this.setState({ scrolled: true });
+      if (window.screen.availWidth <= 105) {
+        this.setState({ scrolled: false });
       } else {
         const top = window.scrollY <= 400;
         if (top) {
