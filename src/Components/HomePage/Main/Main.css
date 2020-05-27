@@ -79,6 +79,7 @@
   font-size: 12px;
   padding: 5px 20px;
   letter-spacing: 3px;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 480px) {
@@ -145,7 +146,7 @@
     color: #0075f6;
     font-size: 1.2em;
     border: 1.5px solid #0075f6;
-    padding: 9px 20px;
+    padding: 7px 20px;
     text-transform: capitalize;
     transition: all 0.5s ease;
   }

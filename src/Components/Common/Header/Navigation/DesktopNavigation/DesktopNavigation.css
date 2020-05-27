@@ -73,14 +73,14 @@
     background: #ec5b53;
     background: #ed6b64;
     background: #1982f6;
+    color: black;
     color: #fff;
     padding: 14px 30px;
+    border-radius: 5px;
     font-size: 1em;
     font-weight: 600;
     border: 1px solid transparent;
-    border-radius: 0px;
     text-align: center;
-    color: black;
     transition: 0.5s;
     cursor: pointer;
   }

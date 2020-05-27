@@ -1,4 +1,292 @@
 .aboutPageMain {
-  height: 20em;
+  height: auto;
   width: 100%;
+}
+
+.aboutPageMainImage {
+  height: auto;
+  width: 100%;
+  /* position: relative; */
+  /* top: 4em; */
+  padding: 20% 4% 0 4%;
+}
+
+.squareImageDiv {
+  height: 15em;
+  width: 100%;
+  background-image: url(./Images/nisarg1.jpg);
+  background-image: url(./Images/myImage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+.aboutPageMainText {
+  height: auto;
+  width: 100%;
+  padding: 20% 2% 0% 2%;
+  text-align: center;
+}
+
+.aboutPageMainText p {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-weight: 600;
+  color: #001d38;
+}
+
+.moreAboutMe {
+  height: auto;
+  /* position: relative; */
+  /* top: 5em; */
+  padding: 15% 1% 7% 1%;
+  text-align: center;
+}
+
+.moreAboutMe p {
+  font-size: 1em;
+  font-weight: 400;
+  color: #727272;
+  margin-top: 10%;
+  letter-spacing: 1px;
+  line-height: 1.7em;
+}
+
+.downloadBtn {
+  left: 34%;
+  margin-top: 15%;
+  position: absolute;
+  background-color: #0075f6;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  padding: 0.8em 2em;
+  transition: all 0.5s ease;
+}
+
+.downloadBtn:focus {
+  outline-color: white;
+}
+
+.threeBoxes {
+  padding: 25% 4% 12% 4%;
+  display: flex;
+}
+
+.boxDiv {
+  height: auto;
+  padding: 5% 0;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+}
+
+.firstBoxDiv {
+  margin-right: 5%;
+}
+
+.boxDiv span {
+  font-size: 2em;
+  color: #77b7ff;
+  color: #0075f6;
+}
+.boxDiv h5 {
+  font-size: 1em;
+  margin-top: 10%;
+  color: #001d38;
+  font-weight: 400;
+}
+.myImageDiv,
+.textGridImage {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .squareImageDiv {
+    height: 17em;
+  }
+  .downloadBtn {
+    margin-top: 13%;
+    left: 37%;
+  }
+  .threeBoxes {
+    padding: 20% 4% 12% 4%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .squareImageDiv {
+    height: 25em;
+  }
+  .aboutPageMainText {
+    padding: 10% 2% 0% 2%;
+  }
+  .moreAboutMe {
+    padding: 7% 1% 0% 1%;
+  }
+  .downloadBtn {
+    margin-top: 11%;
+    left: 39%;
+  }
+  .threeBoxes {
+    padding: 22% 4% 12% 4%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .aboutPageMainImage {
+    padding: 13% 4% 0 4%;
+  }
+  .squareImageDiv {
+    height: 30em;
+  }
+  .downloadBtn {
+    margin-top: 8%;
+    left: 41%;
+  }
+  .threeBoxes {
+    padding: 18% 4% 10% 4%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .aboutPageMainImage {
+    padding: 10% 10% 0 10%;
+  }
+
+  .squareImageDiv {
+    height: 35em;
+  }
+
+  .aboutPageMainText {
+    height: auto;
+    width: 100%;
+    padding: 10% 10% 0% 10%;
+    text-align: center;
+  }
+
+  .aboutPageMainText p {
+    font-size: 1.6em;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #001d38;
+  }
+
+  /* more about me section starts */
+
+  .myImageDiv,
+  .textGridImage {
+    display: block;
+  }
+  .myImageDiv,
+  .moreAboutMeText {
+    padding-top: 2%;
+  }
+  .moreAboutMeText {
+    margin: 0% 7%;
+    width: 30%;
+    height: 15em;
+    position: absolute;
+    right: 0;
+    text-align: left;
+  }
+
+  .moreAboutMe p {
+    margin-top: 7%;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #727272;
+    letter-spacing: 1.5px;
+    line-height: 1.7em;
+  }
+
+  .downloadBtn {
+    background-color: #0075f6;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.6em 2em;
+    left: 0%;
+    margin-top: 20%;
+    font-size: 1em;
+  }
+  .downloadBtn:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #0075f6;
+    outline-color: #0075f6;
+    border: 1px solid #0075f6;
+  }
+  .myImageDiv {
+    width: 35%;
+    margin: 10%;
+    height: 27em;
+    margin-top: 6%;
+  }
+  .myImageDiv .myImg {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .myImageDiv .myImg:hover {
+    box-shadow: none;
+  }
+
+  .textGridImage {
+    opacity: 0.3;
+    position: absolute;
+    right: -13%;
+    top: -35%;
+    height: 2em;
+  }
+  .textGridImage img,
+  .imgGridImage img {
+    height: 13em;
+  }
+  .imgGridImage {
+    opacity: 0.5;
+    position: absolute;
+    left: 3%;
+    margin-top: -8%;
+    height: 2em;
+    z-index: -1;
+  }
+
+  /* more about me ends */
+
+  .threeBoxes {
+    padding: 12% 4% 10% 4%;
+  }
+  .boxDiv span {
+    font-size: 2.2em;
+  }
+  .boxDiv h5 {
+    font-size: 1.2em;
+    margin-top: 7%;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .myImageDiv {
+    height: 30em;
+    width: 30%;
+  }
+  .threeBoxes {
+    padding: 5% 4% 10% 4%;
+  }
+  .boxDiv span {
+    font-size: 2.5em;
+  }
+  .boxDiv h5 {
+    font-size: 1.5em;
+  }
 }

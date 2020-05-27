@@ -3,6 +3,7 @@
   background-image: url(./Images/bgimage.jpg);
   height: 13em;
   width: 100%;
+  /* top: 4em; */
   background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +14,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  padding-top: 21%;
+  padding-top: 20%;
   text-align: center;
 }
 
@@ -45,7 +46,7 @@
 
 @media screen and (min-width: 1025px) {
   .pageTitleDiv {
-    height: 20em;
+    height: 23em;
   }
   .pageTitleDivBg {
     padding-top: 14%;
@@ -54,7 +55,7 @@
 
 @media screen and (min-width: 1280px) {
   .pageTitleDiv {
-    height: 25em;
+    height: 27em;
   }
   .pageTitleDivBg {
     padding-top: 12%;
