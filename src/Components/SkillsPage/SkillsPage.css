@@ -1,4 +1,54 @@
 .skillsPageMain {
+  height: auto;
+  width: 100%;
+}
+
+.filterMainDiv {
+  height: auto;
   height: 20em;
+  padding-top: 15%;
+}
+
+.filterTitleDiv {
+  /* padding-left: 5%; */
+  text-align: center;
+}
+
+.filterTitle {
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #10285d;
+}
+
+.filteringDiv {
+  display: flex;
+  /* float: right; */
+  width: 100%;
+  margin-top: 15%;
+  padding: 0 4%;
+  text-align: left;
+}
+
+.categoryNames {
+  /* padding-right: 5%; */
+  flex: 1;
+  font-size: 1.1em;
+  color: #10285d;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.filteringDiv .active:after {
+  background: none repeat scroll 0 0 transparent;
+  top: 15%;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0%;
+  position: relative;
+  background: #0075f6;
   width: 100%;
 }

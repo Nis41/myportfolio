@@ -82,6 +82,7 @@
   width: 100%;
   text-align: center;
   border: 1px solid #e8e8e8;
+  transition: all 0.4s ease;
 }
 
 .firstBoxDiv {
@@ -196,7 +197,7 @@
   }
 
   .moreAboutMe p {
-    margin-top: 7%;
+    margin-top: 8%;
     font-size: 1.2em;
     font-weight: 600;
     color: #727272;
@@ -272,6 +273,9 @@
     font-size: 1.2em;
     margin-top: 7%;
     font-weight: 600;
+  }
+  .boxDiv:hover {
+    border: 1px solid #77b7ff;
   }
 }
 

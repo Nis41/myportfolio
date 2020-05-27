@@ -1,0 +1,82 @@
+.box {
+  display: inline-block;
+  height: auto;
+  width: 44%;
+  margin: 10% 3% 0 3%;
+  padding: 1% 0% 3% 0%;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  cursor: default;
+}
+
+/* .wholeBox {
+  height: auto;
+  width: 94%;
+  margin: 10% 3% 0 3%;
+  padding: 1% 0% 3% 0%;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  cursor: default;
+} */
+
+.skillImage {
+  height: 3em;
+  width: 3em;
+  margin-top: 5%;
+}
+
+.skillTitle {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 8%;
+}
+
+.skillDesc {
+  margin-top: 5%;
+  letter-spacing: 1px;
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1025px) {
+  .box {
+    display: inline-block;
+    height: auto;
+    width: 27%;
+    margin: 7% 3% 0 3%;
+    padding: 1% 0% 3% 0%;
+    background-color: #fff;
+    transition: all 0.4s ease;
+    cursor: default;
+  }
+
+  .skillImage {
+    height: 5em;
+    width: 5em;
+    margin-top: 10%;
+  }
+
+  .skillTitle {
+    margin-top: 17%;
+    font-size: 1.7em;
+  }
+
+  .skillDesc {
+    margin-top: 15%;
+  }
+
+  .box:hover {
+    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+}

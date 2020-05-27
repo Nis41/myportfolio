@@ -16,6 +16,7 @@ function App() {
         <Route path="/skills" component={SkillsPage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/" exact component={HomePage} />
+        {/* <Redirect to="/"></Redirect> */}
       </div>
       <Footer />
     </div>

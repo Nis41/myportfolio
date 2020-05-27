@@ -2,114 +2,73 @@
   height: auto;
   width: 100%;
   background-color: #f6f5f5;
-  padding: 5%;
-  padding-top: 10%;
+  padding: 10% 0% 15% 0%;
 }
 
-.box {
-  height: auto;
-  margin-top: 2em;
-  background-color: #fff;
-  transition: all 0.4s ease;
-  cursor: default;
+.moreSkillsDiv {
+  text-align: center;
+  margin-top: 13%;
 }
-
-.skillImage {
-  height: 3em;
-  width: 3em;
-  margin-top: 5%;
-}
-
-.firstBox::after,
-.fourthBox::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  z-index: 5;
-  top: 15%;
-  width: 2px;
-  height: 70%;
-  background: #77b7ff;
-}
-
-.skillTitle {
-  font-size: 1.5em;
-  font-weight: 400;
-  margin-top: 6%;
-}
-
-.skillDesc {
-  margin-top: 5%;
-  letter-spacing: 1px;
-  display: none;
+.moreSkillsBtn {
+  background-color: #0075f6;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.8em 2em;
+  transition: all 0.5s ease;
 }
 
 @media screen and (min-width: 480px) {
+  .skillsDiv {
+    padding: 10% 0% 10% 0%;
+  }
+  .moreSkillsDiv {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (min-width: 600px) {
+  .skillsDiv {
+    padding: 10% 0% 7% 0%;
+  }
+  .moreSkillsDiv {
+    margin-top: 7%;
+  }
 }
 
 @media screen and (min-width: 800px) {
+  .skillsDiv {
+    padding: 7% 0% 8% 0%;
+  }
+  .moreSkillsDiv {
+    margin-top: 7%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
   .skillsDiv {
-    padding-top: 5%;
+    padding: 5% 10% 7% 10%;
   }
-  .box {
-    margin-right: 1.7em;
-    /* height: 17em; */
-    height: auto;
+  .moreSkillsBtn {
+    background-color: #0075f6;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    /* left: 0%; */
+    /* margin-top: 20%; */
+    font-size: 1.3em;
   }
-  .firstBox {
-    margin-left: 2%;
-  }
-  .skillImage {
-    height: 6em;
-    width: 6em;
-    margin-top: 12%;
-  }
-
-  .skillTitle {
-    margin-top: 22%;
-    font-size: 1.7em;
-  }
-
-  .skillDesc {
-    margin-top: 15%;
-  }
-
-  .box:hover {
-    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
-  }
-  .firstBox::after,
-  .fourthBox::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    z-index: 5;
-    top: 0%;
-    width: 0px;
-    height: 0%;
-    background: #fff;
+  .moreSkillsBtn:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #0075f6;
+    border: 1px solid #0075f6;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .box {
-    margin-right: 2.5em;
-    height: auto;
-  }
-  .firstBox {
-    margin-left: 2.3%;
-  }
-
-  .skillTitle {
-    margin-top: 15%;
-  }
-
-  .skillDesc {
-    margin-top: 13%;
-  }
 }

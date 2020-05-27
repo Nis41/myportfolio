@@ -146,6 +146,7 @@
 @media screen and (min-width: 1025px) {
   .footerMainDiv {
     padding-left: 5%;
+    padding-top: 5%;
   }
 
   .footerContentMain {
@@ -232,9 +233,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .footerMainDiv {
-    padding-top: 7%;
-  }
   /* .footerLinks {
     order: 2;
   }

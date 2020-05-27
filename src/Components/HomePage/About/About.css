@@ -16,7 +16,7 @@
 
 .moreBtn {
   position: absolute;
-  margin-top: 12%;
+  margin-top: 15%;
   left: 37.5%;
   background-color: #0075f6;
   color: #fff;
@@ -94,7 +94,7 @@
   }
   .imageDiv {
     margin-top: 18%;
-    height: 30em;
+    height: 25em;
   }
 }
 
