@@ -1,7 +1,7 @@
 import React from "react";
 import Hr from "../Common/Hr/Hr";
 import colorGridImage from "../HomePage/About/Images/color_grid.png";
-import myImage from "./Images/nisarg1.jpg";
+import myImage from "./Images/nisarg1-min.jpg";
 const MoreAboutMe = () => {
   return (
     <div className="moreAboutMe">

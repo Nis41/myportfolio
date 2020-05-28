@@ -4,7 +4,7 @@ import SkillBox from "../Common/SkillBox/SkillBox";
 import htmlImg from "../Common/SkillsImages/html.png";
 import cssImg from "../Common/SkillsImages/css.png";
 import bootsImg from "../Common/SkillsImages/bootstrap.png";
-import jsImg from "../Common/SkillsImages/oracle.png";
+import jsImg from "../Common/SkillsImages/js.png";
 import jqueryImg from "../Common/SkillsImages/jquery.png";
 import reactImg from "../Common/SkillsImages/react.png";
 

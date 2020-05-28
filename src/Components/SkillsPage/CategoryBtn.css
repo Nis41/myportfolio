@@ -28,6 +28,7 @@
   color: #77b7ff;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  background-color: #fff;
 }
 
 .formSelect option {
@@ -63,7 +64,7 @@
 @media screen and (min-width: 1025px) {
   .categoryBtnMain p,
   .formSelect {
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }
 
