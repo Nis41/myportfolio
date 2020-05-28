@@ -5,13 +5,13 @@
 
 .filterMainDiv {
   height: auto;
-  height: 20em;
-  padding-top: 15%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  background-color: #f6f5f5;
 }
 
 .filterTitleDiv {
-  /* padding-left: 5%; */
-  text-align: center;
+  display: none;
 }
 
 .filterTitle {
@@ -51,4 +51,26 @@
   position: relative;
   background: #0075f6;
   width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .filterMainDiv {
+    padding-top: 5%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .filterMainDiv {
+    padding-top: 0;
+    padding-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+}
+
+@media screen and (min-width: 1025px) {
+}
+
+@media screen and (min-width: 1280px) {
 }

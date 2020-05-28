@@ -9,7 +9,7 @@
   cursor: default;
 }
 
-/* .wholeBox {
+.wholeBox {
   height: auto;
   width: 94%;
   margin: 10% 3% 0 3%;
@@ -17,7 +17,7 @@
   background-color: #fff;
   transition: all 0.4s ease;
   cursor: default;
-} */
+}
 
 .skillImage {
   height: 3em;
