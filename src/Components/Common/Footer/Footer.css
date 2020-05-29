@@ -8,7 +8,7 @@
   /* height: 46em; */
   height: auto;
   margin: 0;
-  padding: 15% 0 0 5%;
+  padding: 10% 0 0 5%;
 }
 
 .footerContentMain {
@@ -24,7 +24,7 @@
 }
 .footerLi a {
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .footerLi a:focus {
@@ -34,7 +34,7 @@
 .footerSocialLinks {
   /* width: 100%; */
   /* border: 1px solid yellow; */
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 .footerSocialLi {
@@ -45,7 +45,7 @@
 
 .footerSocialLi a {
   color: #fff;
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 40px;
   border: 1px solid #334a60;
   padding: 3% 4%;
@@ -71,7 +71,7 @@
 } */
 
 .footerTitle {
-  font-size: 1.4em;
+  font-size: 1.2em;
   margin-bottom: 10%;
   font-weight: 600;
   color: #fff;
@@ -81,17 +81,17 @@
 
 .footerContact {
   color: #fff;
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 .footerContactContent {
   display: inline-flex;
   width: 100%;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .footerContactContent p {
-  padding-left: 5%;
+  padding-left: 1%;
   flex: 12;
 }
 .footerContactContent i {
@@ -182,11 +182,18 @@
   .footerSocialLi a {
     color: #fff;
     font-size: 1.2em;
-    padding: 3% 4%;
-    transition: all 0.6s ease;
+    padding: 1.5% 4%;
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .footerSocialLi a:hover {
+    transform: rotate(360deg);
   }
 
   .whatsapp:hover {
+    transform: rotate(360deg);
     background-color: #24cd63;
   }
 
@@ -213,6 +220,13 @@
     margin-top: 0%;
     flex: 1;
     order: 3;
+  }
+  .footerContactContent p {
+    padding-left: 2%;
+  }
+
+  .footerContactContent {
+    font-size: 1.1em;
   }
 
   .footerBorder {

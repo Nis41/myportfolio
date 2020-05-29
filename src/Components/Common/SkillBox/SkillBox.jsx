@@ -5,7 +5,7 @@ const SkillBox = ({ imgSource, skillName, classContain }) => {
   return (
     <div className={boxClassName}>
       <div className="text-center">
-        <img src={imgSource} className="skillImage" alt="skill Image" />
+        <img src={imgSource} className="skillImage" alt="skill Images" />
         <h3 className="skillTitle">{skillName}</h3>
         <p className="skillDesc"></p>
       </div>

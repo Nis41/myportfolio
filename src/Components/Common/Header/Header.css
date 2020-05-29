@@ -4,6 +4,7 @@
   background-color: black;
   z-index: 1000;
   position: relative;
+  position: fixed;
   display: inline-flex;
 }
 .scrolledHeader {

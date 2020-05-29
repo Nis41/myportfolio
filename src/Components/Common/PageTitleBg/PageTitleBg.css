@@ -1,7 +1,7 @@
 .pageTitleDiv {
   position: relative;
-  background-image: url(./Images/bgimage.jpg);
-  height: 13em;
+  background-image: url(./Images/image_3.jpg);
+  height: 12em;
   width: 100%;
   /* top: 4em; */
   background-size: 100% 100%;
@@ -14,7 +14,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
-  padding-top: 20%;
+  padding-top: 28%;
   text-align: center;
 }
 
@@ -26,27 +26,38 @@
   color: #fff;
 }
 
+@media screen and (min-width: 400px) {
+  .pageTitleDiv {
+    height: 13em;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .pageTitleDivBg {
-    padding-top: 15%;
+    padding-top: 23%;
   }
 }
 
 @media screen and (min-width: 600px) {
   .pageTitleDivBg {
-    padding-top: 12%;
+    padding-top: 19%;
   }
 }
 
 @media screen and (min-width: 800px) {
   .pageTitleDiv {
     height: 15em;
+    background-image: url(./Images/bgimage.jpg);
+  }
+  .pageTitleDivBg {
+    padding-top: 16%;
   }
 }
 
 @media screen and (min-width: 1025px) {
   .pageTitleDiv {
-    height: 23em;
+    background-image: url(./Images/bgimage.jpg);
+    height: 20em;
   }
   .pageTitleDivBg {
     padding-top: 14%;
@@ -55,9 +66,9 @@
 
 @media screen and (min-width: 1280px) {
   .pageTitleDiv {
-    height: 27em;
+    height: 21em;
   }
   .pageTitleDivBg {
-    padding-top: 12%;
+    padding-top: 11%;
   }
 }
