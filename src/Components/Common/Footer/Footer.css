@@ -25,6 +25,7 @@
 .footerLi a {
   color: #fff;
   font-size: 1em;
+  text-decoration: none;
 }
 
 .footerLi a:focus {

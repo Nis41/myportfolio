@@ -2,3 +2,164 @@
   height: auto;
   width: 100%;
 }
+
+.contactPageContent {
+  padding: 15% 5% 12% 5%;
+}
+
+.contactTitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.6;
+  color: #10285d;
+  letter-spacing: 1px;
+}
+
+.contactText {
+  margin-top: 2em;
+  font-size: 1em;
+  color: #10285d;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.contactFormMain {
+  padding-top: 10%;
+}
+
+.contactFormDiv {
+  padding-top: 10%;
+}
+
+.formInputs {
+  background: #fff;
+  width: 100%;
+  padding: 10px 26px;
+  color: #a3a3a3;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  outline-color: #77b7ff;
+  margin-bottom: 0.4em;
+}
+
+.formInputGroup {
+  margin-bottom: 1.8em;
+}
+
+.validationError {
+  border: 1px solid red;
+}
+.validationErrorMessage {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+  text-transform: capitalize;
+}
+
+input {
+  height: 3.5em;
+}
+
+textarea {
+  height: 9em;
+}
+
+.formInputs:focus {
+  color: #10285d;
+}
+
+.submitBtn {
+  border: 1px solid #77b7ff;
+  border: 1px solid #0075f6;
+  color: #77b7ff;
+  color: #0075f6;
+  /* background: #0075f6;
+  background: #77b7ff;
+  color: #fff;
+  border: none; */
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 600px) {
+  .contactPageContent {
+    padding: 10% 5%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .contactPageContent {
+    padding: 8% 5%;
+  }
+  .contactFormMain {
+    padding-top: 6%;
+  }
+
+  .contactFormDiv {
+    padding-top: 7%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .contactPageContent {
+    display: flex;
+  }
+  .contactTextMain {
+    /* flex: 1; */
+    width: 55%;
+  }
+  .contactFormMain {
+    /* flex: 1; */
+    width: 35%;
+  }
+
+  .getInTouch {
+    display: none;
+  }
+
+  .contactPageContent {
+    padding: 8% 5%;
+  }
+
+  .contactTitle {
+    font-size: 2.5em;
+    /* font-weight: 600; */
+    /* line-height: 1.6; */
+    /* color: #10285d; */
+    /* letter-spacing: 1px; */
+  }
+
+  .contactText {
+    margin-top: 3em;
+    font-size: 1.1em;
+    /* color: #10285d; */
+    /* font-weight: 500; */
+    line-height: 2;
+    letter-spacing: 2px;
+  }
+
+  .contactFormMain {
+    padding-top: 0%;
+    margin-left: 10%;
+  }
+
+  .contactFormDiv {
+    padding-top: 0%;
+  }
+
+  .submitBtn:hover {
+    background: #77b7ff;
+    background: #0075f6;
+    color: #fff;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+}
