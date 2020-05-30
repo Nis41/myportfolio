@@ -38,7 +38,6 @@
   padding: 10px 26px;
   color: #a3a3a3;
   font-weight: 500;
-  text-transform: capitalize;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   outline-color: #77b7ff;
@@ -162,4 +161,18 @@ textarea {
 }
 
 @media screen and (min-width: 1280px) {
+  .contactTextMain {
+    /* flex: 1; */
+    width: 55%;
+  }
+  .contactFormMain {
+    /* flex: 1; */
+    width: 30%;
+  }
+  .contactFormMain {
+    margin-left: 10%;
+  }
+  .contactPageContent {
+    padding: 8% 7.5%;
+  }
 }

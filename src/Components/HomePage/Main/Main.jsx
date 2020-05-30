@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ImageDiv from "./ImageDiv/ImageDiv";
-import Img1 from "./Images/n1.jpg";
+import Img1 from "./Images/n.jpg";
 import Img2 from "./Images/image.jpg";
 import "./Main.css";
 

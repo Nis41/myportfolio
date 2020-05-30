@@ -3,6 +3,8 @@ import Hr from "../Common/Hr/Hr";
 import SkillBox from "../Common/SkillBox/SkillBox";
 import nodeImg from "../Common/SkillsImages/node.png";
 import codeIgniterImg from "../Common/SkillsImages/codeigniter.png";
+import mongooseImg from "../Common/SkillsImages/mongoose.png";
+import expressImg from "../Common/SkillsImages/express.png";
 
 const BackEnd = () => {
   return (
@@ -13,6 +15,8 @@ const BackEnd = () => {
       </div>
       <div className="filteredSkillsDiv">
         <SkillBox imgSource={nodeImg} skillName="Node.js" />
+        <SkillBox imgSource={expressImg} skillName="Express.js" />
+        <SkillBox imgSource={mongooseImg} skillName="Mongoose" />
         <SkillBox imgSource={codeIgniterImg} skillName="CodeIgniter" />
       </div>
     </div>
