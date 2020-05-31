@@ -38,7 +38,9 @@ const MobileNavLinks = (props) => {
               <NavLink to="/contact">Contact</NavLink>
             </li>
             <li className="navigationLiMob">
-              <Link to="">Download CV</Link>
+              <Link to="https://nisargpatel-portfolio.herokuapp.com/api/cv">
+                Download CV
+              </Link>
             </li>
           </ul>
         </nav>
