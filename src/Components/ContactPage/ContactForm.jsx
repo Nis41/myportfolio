@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Joi from "joi-browser";
-
+import axios from "axios";
+import { toast } from "react-toastify";
+// import "react-toastify/dist";
 class ContactForm extends Component {
   state = {
     data: { userName: "", userEmail: "", userMessage: "" },
@@ -9,6 +11,7 @@ class ContactForm extends Component {
 
   schema = {
     userName: Joi.string()
+      .trim()
       .regex(/^[A-Za-z ]+$/)
       .required()
       .error(() => {
@@ -17,6 +20,7 @@ class ContactForm extends Component {
         };
       }),
     userEmail: Joi.string()
+      .trim()
       .email()
       .regex(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)
       .required()
@@ -46,14 +50,33 @@ class ContactForm extends Component {
     return errors;
   };
 
-  handleSubmit = (e) => {
+  handleSubmit = async (e) => {
     e.preventDefault();
     const errors = this.validate();
     this.setState({ errors: errors || {} });
     if (errors) return;
 
     //call the server
-    // console.log("submitted");
+    // const CONTACT_API_URL = "http://localhost:5000/api/contact";
+    const CONTACT_API_URL =
+      "https://nisargpatel-portfolio.herokuapp.com/api/contact";
+
+    let userData = { ...this.state.data };
+
+    // fetch(CONTACT_API_URL, {
+    //   method: "POST",
+    //   body: userData,
+    // }).then((result) => {
+    //   console.log(result);
+
+    // });
+
+    await axios.post(CONTACT_API_URL, userData);
+
+    // console.log(result);
+    toast("Message Sent!");
+    userData = { userName: "", userEmail: "", userMessage: "" };
+    this.setState({ data: userData });
   };
 
   validateProperty = ({ name, value }) => {

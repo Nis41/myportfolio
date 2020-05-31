@@ -12,7 +12,7 @@ const SocialLinks = () => {
             rel="noopener noreferrer"
             className="whatsapp"
           >
-            <i class="fa fa-whatsapp"></i>
+            <i className="fa fa-whatsapp"></i>
           </a>
         </li>
         <li className="footerSocialLi">
@@ -22,7 +22,7 @@ const SocialLinks = () => {
             rel="noopener noreferrer"
             className="linkedin"
           >
-            <i class="fa fa-linkedin"></i>
+            <i className="fa fa-linkedin"></i>
           </a>
         </li>
         <li className="footerSocialLi">
@@ -32,7 +32,7 @@ const SocialLinks = () => {
             rel="noopener noreferrer"
             className="github"
           >
-            <i class="fa fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
         </li>
         <li className="footerSocialLi">
@@ -42,7 +42,7 @@ const SocialLinks = () => {
             rel="noopener noreferrer"
             className="instagram"
           >
-            <i class="fa fa-instagram"></i>
+            <i className="fa fa-instagram"></i>
           </a>
         </li>
       </ul>

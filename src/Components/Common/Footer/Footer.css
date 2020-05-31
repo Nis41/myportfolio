@@ -21,6 +21,7 @@
 .footerLi {
   padding-bottom: 4%;
   text-decoration: none;
+  list-style: none;
 }
 .footerLi a {
   color: #fff;
