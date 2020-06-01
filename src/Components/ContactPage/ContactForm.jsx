@@ -7,6 +7,7 @@ class ContactForm extends Component {
   state = {
     data: { userName: "", userEmail: "", userMessage: "" },
     errors: {},
+    isSending: false,
   };
 
   schema = {
@@ -62,21 +63,13 @@ class ContactForm extends Component {
       "https://nisargpatel-portfolio.herokuapp.com/api/contact";
 
     let userData = { ...this.state.data };
-
-    // fetch(CONTACT_API_URL, {
-    //   method: "POST",
-    //   body: userData,
-    // }).then((result) => {
-    //   console.log(result);
-
-    // });
-
+    this.setState({ isSending: true });
     await axios.post(CONTACT_API_URL, userData);
 
     // console.log(result);
     toast("Message Sent!");
     userData = { userName: "", userEmail: "", userMessage: "" };
-    this.setState({ data: userData });
+    this.setState({ data: userData, isSending: false });
   };
 
   validateProperty = ({ name, value }) => {
@@ -100,8 +93,11 @@ class ContactForm extends Component {
   };
 
   render() {
-    const { data, errors } = this.state;
-
+    const { data, errors, isSending } = this.state;
+    const submitClassName = isSending
+      ? "formInputs disabledBtn submitBtn"
+      : "formInputs submitBtn";
+    const submitBtnValue = isSending ? "Message Sending..." : "Send Message";
     return (
       <div className="contactFormMain">
         <h3
@@ -160,8 +156,9 @@ class ContactForm extends Component {
             {/* <div className="formInputGroup"> */}
             <input
               type="submit"
-              className="formInputs submitBtn"
-              value="Send Message"
+              className={submitClassName}
+              value={submitBtnValue}
+              disabled={isSending}
             />
             {/* </div> */}
           </form>

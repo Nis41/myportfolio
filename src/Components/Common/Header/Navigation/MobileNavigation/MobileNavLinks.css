@@ -32,9 +32,14 @@
 }
 .navigationLiMob {
   padding-top: 6%;
+  width: 80%;
 }
 .navigationLiMob a {
+  /* border: 1px solid red; */
+  width: inherit;
+  position: relative;
   margin-left: 6%;
+  padding-right: 50%;
   text-decoration: none;
   color: #fff;
   font-size: 1em;
@@ -43,7 +48,6 @@
 .navigationLiMob .active {
   color: #0075f6;
 }
-
 .closeBtnDiv {
   position: absolute;
   right: 0;

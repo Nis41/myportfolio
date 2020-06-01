@@ -37,7 +37,7 @@ const MobileNavLinks = (props) => {
             <li className="navigationLiMob">
               <NavLink to="/contact">Contact</NavLink>
             </li>
-            <li className="navigationLiMob">
+            <li className="navigationLiMob cvDwn">
               <Link
                 to=""
                 onClick={() => {

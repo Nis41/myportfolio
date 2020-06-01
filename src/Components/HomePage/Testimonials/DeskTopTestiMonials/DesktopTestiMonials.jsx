@@ -42,17 +42,17 @@ const DesktopTestiMonials = () => {
                     <img src={Img2} alt="TestiMonialImageDesk" />
                   </div>
                   <div className="testiNameDivDesk">
-                    <h5 className="testiNameDesk">Rohit Prajapati</h5>
-                    <h6 className="testiPostDesk">Proffesor</h6>
+                    <h5 className="testiNameDesk">John Doe</h5>
+                    <h6 className="testiPostDesk">Web Developer</h6>
 
-                    <p className="testiPlaceDesk">DCS, HNGU</p>
+                    <p className="testiPlaceDesk">Microsoft</p>
                   </div>
                 </div>
                 <div className="contentTwoDesk">
                   <p className="testiReviewDesk">
-                    Consectetur adipisicing elit, seddosdoe eiusmod tempor
-                    incididunt utore etstes dolore magna aliqua. Ut imminim
-                    restai veniam, quis nostrud.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem illo ad itaque fugit, saepe minus a omnis minima
+                    maiores
                   </p>
                 </div>
               </div>
@@ -98,9 +98,9 @@ const DesktopTestiMonials = () => {
                 </div>
                 <div className="contentTwoDesk">
                   <p className="testiReviewDesk">
-                    Consectetur adipisicing elit, seddosdoe eiusmod tempor
-                    incididunt utore etstes dolore magna aliqua. Ut imminim
-                    restai veniam, quis nostrud.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem illo ad itaque fugit, saepe minus a omnis minima
+                    maiores
                   </p>
                 </div>
               </div>

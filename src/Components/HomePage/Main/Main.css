@@ -1,10 +1,10 @@
 .mainDiv {
-  height: 53em;
+  height: 45em;
   position: relative;
 }
 
 .blueDiv {
-  height: 40em;
+  height: 33em;
   width: 40%;
   background-color: #77b7ff;
   position: absolute;
@@ -13,10 +13,10 @@
 }
 
 .imgDiv {
-  height: 40em;
+  height: 33em;
   width: 86%;
   position: relative;
-  top: 6em;
+  top: 7em;
   margin: 0 7% 0 7%;
   background-color: transparent;
   /* z-index: 5; */
@@ -31,7 +31,7 @@
 
 .textOnImage {
   position: absolute;
-  top: 28em;
+  top: 22em;
   color: white;
   text-align: center;
   transition: all 1s;
@@ -41,6 +41,8 @@
 }
 
 .textBackground {
+  padding: 10% 0;
+  height: 18em;
   background-color: rgba(0, 0, 0, 0.3);
   /* background-color: rgba(139, 131, 120, 0.3); */
   /* background-color: rgba(192, 192, 192, 0.2); */
@@ -92,12 +94,16 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .mainDiv {
+    height: 53em;
+  }
   .blueDiv {
     height: 37em;
   }
   .imgDiv {
     height: 650px;
     width: 650px;
+    /* 890 */
     position: relative;
     margin-left: 31.5%;
     top: 8em;
@@ -106,7 +112,7 @@
     width: 40%;
     top: 20em;
     color: black;
-    margin-left: 13%;
+    margin-left: 13.3%;
     text-align: left;
   }
 
@@ -161,7 +167,7 @@
 @media screen and (min-width: 1280px) {
   .imgDiv {
     height: 650px;
-    width: 890px;
+    width: 700px;
     margin-left: 32.5%;
   }
 }

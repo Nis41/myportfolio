@@ -46,17 +46,16 @@ const MobileTestiMonials = () => {
                   <img src={Img2} alt="TestiMonialImage" />
                 </div>
                 <div className="testiNameDiv">
-                  <h5 className="testiName">Rohit Prajapati</h5>
-                  <h6 className="testiPost">Proffecor,</h6>
+                  <h5 className="testiName">John Doe</h5>
+                  <h6 className="testiPost">Web Developer</h6>
 
-                  <p className="testiPlace">DCS, HNGU</p>
+                  <p className="testiPlace">Microsoft</p>
                 </div>
               </div>
               <div className="contentTwo">
                 <p className="testiReview">
-                  Consectetur adipisicing elit, seddosdoe eiusmod tempor
-                  incididunt utore etstes dolore magna aliqua. Ut imminim restai
-                  veniam, quis nostrud.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                  illo ad itaque fugit, saepe minus a omnis minima maiores{" "}
                 </p>
               </div>
             </div>
