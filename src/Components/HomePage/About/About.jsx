@@ -15,8 +15,8 @@ const About = () => {
           <img src={colorGridImage} alt="gridImage" />
         </div>
         I am Nisarg Hiteshkumar Patel, A freelance full stack web developer, I
-        have completed my bachlors degree in computer science at Department of
-        Computer Science , Hngu. currently I am doing my masters.
+        have completed my bachlors degree and Pursuing my masters degree in
+        computer science at Department of Computer Science , Hngu.
         <NavLink to="/about" className="moreBtn">
           More
         </NavLink>

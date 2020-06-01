@@ -17,7 +17,7 @@ const Discuss = () => {
             className="whatsappBtn hvr-bounce-to-right"
           >
             Discuss &nbsp;
-            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i className="fa fa-whatsapp" aria-hidden="true"></i>
           </a>
         </div>
       </div>

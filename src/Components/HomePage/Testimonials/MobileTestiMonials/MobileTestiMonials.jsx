@@ -12,11 +12,11 @@ const MobileTestiMonials = () => {
     <div className="mobTesti">
       <div
         id="carouselExampleIndicators"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
@@ -39,7 +39,7 @@ const MobileTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
@@ -61,7 +61,7 @@ const MobileTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
@@ -82,7 +82,7 @@ const MobileTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
@@ -103,7 +103,7 @@ const MobileTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
@@ -129,20 +129,20 @@ const MobileTestiMonials = () => {
         </div>
 
         <a
-          class="carousel-control-prev moveBtn left"
+          className="carousel-control-prev moveBtn left"
           href="#carouselExampleIndicators"
           role="button"
           data-slide="prev"
         >
-          <i class="fa fa-chevron-left leftSpan" aria-hidden="true"></i>
+          <i className="fa fa-chevron-left leftSpan" aria-hidden="true"></i>
         </a>
         <a
-          class="carousel-control-next moveBtn right"
+          className="carousel-control-next moveBtn right"
           href="#carouselExampleIndicators"
           role="button"
           data-slide="next"
         >
-          <i class="fa fa-chevron-right rightSpan" aria-hidden="true"></i>
+          <i className="fa fa-chevron-right rightSpan" aria-hidden="true"></i>
         </a>
       </div>
     </div>

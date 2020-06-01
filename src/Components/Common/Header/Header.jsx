@@ -33,15 +33,21 @@ class Header extends Component {
     this.setState({ isSliderOpen: false });
   };
 
+  downloadCV = async () => {
+    window.open("https://nisargpatel-portfolio.herokuapp.com/api/cv");
+    // window.open("http://localhost:5000/api/cv");
+  };
+
   render() {
     return (
       <div className={this.state.scrolled ? `scrolledHeader` : `header`}>
         <Logo />
-        <DesktopNavigation />
+        <DesktopNavigation downloadCV={this.downloadCV} />
         <NavButton sliderOpener={this.sliderOpener} />
         <MobileNavLinks
           isSliderOpen={this.state.isSliderOpen}
           sliderCloser={this.sliderCloser}
+          downloadCV={this.downloadCV}
         />
       </div>
     );

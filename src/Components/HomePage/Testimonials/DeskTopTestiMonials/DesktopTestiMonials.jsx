@@ -11,11 +11,11 @@ const DesktopTestiMonials = () => {
     <div className="deskTesti">
       <div
         id="carouselExampleControls"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <div className="testiDesktopDiv">
               <div className="testiContentMainDesk">
                 <div className="contentOneDesk">
@@ -58,7 +58,7 @@ const DesktopTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiDesktopDiv">
               <div className="testiContentMainDesk">
                 <div className="contentOneDesk">
@@ -106,7 +106,7 @@ const DesktopTestiMonials = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testiDesktopDiv">
               <div className="testiContentMainDesk">
                 <div className="contentOneDesk">
@@ -131,20 +131,23 @@ const DesktopTestiMonials = () => {
           </div>
         </div>
         <a
-          class="carousel-control-prev moveBtnDesk leftDesk"
+          className="carousel-control-prev moveBtnDesk leftDesk"
           href="#carouselExampleControls"
           role="button"
           data-slide="prev"
         >
-          <i class="fa fa-chevron-left leftSpanDesk" aria-hidden="true"></i>
+          <i className="fa fa-chevron-left leftSpanDesk" aria-hidden="true"></i>
         </a>
         <a
-          class="carousel-control-next moveBtnDesk rightDesk"
+          className="carousel-control-next moveBtnDesk rightDesk"
           href="#carouselExampleControls"
           role="button"
           data-slide="next"
         >
-          <i class="fa fa-chevron-right rightSpanDesk" aria-hidden="true"></i>
+          <i
+            className="fa fa-chevron-right rightSpanDesk"
+            aria-hidden="true"
+          ></i>
         </a>
       </div>
     </div>

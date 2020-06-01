@@ -38,7 +38,12 @@ const MobileNavLinks = (props) => {
               <NavLink to="/contact">Contact</NavLink>
             </li>
             <li className="navigationLiMob">
-              <Link to="https://nisargpatel-portfolio.herokuapp.com/api/cv">
+              <Link
+                to=""
+                onClick={() => {
+                  props.downloadCV();
+                }}
+              >
                 Download CV
               </Link>
             </li>

@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./DesktopNavigation.css";
 
-const DesktopNavigation = () => {
+const DesktopNavigation = (props) => {
   return (
     <div className="navigationDiv">
       <nav className="navigation">
@@ -22,7 +22,14 @@ const DesktopNavigation = () => {
             <NavLink to="/contact">Contact</NavLink>
           </li>
           <li className="CV">
-            <button className="cvBtn">Download CV</button>
+            <button
+              className="cvBtn"
+              onClick={() => {
+                props.downloadCV();
+              }}
+            >
+              Download CV
+            </button>
           </li>
         </ul>
       </nav>

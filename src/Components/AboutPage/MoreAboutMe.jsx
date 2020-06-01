@@ -15,7 +15,15 @@ const MoreAboutMe = () => {
         vero perferendis, labore eaque dolor saepe possimus quod tempore
         cupiditate iusto facere accusantium debitis sunt deleniti beatae
         quisquam, nihil ea.
-        <button className="downloadBtn">Download CV</button>
+        <button
+          onClick={() => {
+            window.open("https://nisargpatel-portfolio.herokuapp.com/api/cv");
+            // window.open("http://localhost:5000/api/cv");
+          }}
+          className="downloadBtn"
+        >
+          Download CV
+        </button>
       </p>
 
       <div className="myImageDiv">
