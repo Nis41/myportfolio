@@ -1,0 +1,89 @@
+.notFoundMain {
+  height: 30em;
+  width: 100%;
+  /* padding: 15em; */
+  padding-top: 9em;
+}
+
+.notFoundDiv {
+  height: auto;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.oops {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.notFoundTitle {
+  font-size: 1.3em;
+  margin-top: 1.5em;
+  text-transform: uppercase;
+}
+
+.notFoundText {
+  font-size: 1em;
+  margin-top: 1.5em;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.gotoHome {
+  position: absolute;
+  margin-top: 1.5em;
+  left: 33%;
+  background-color: #0075f6;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.8em;
+  padding: 0.8em 2em;
+  transition: all 0.5s ease;
+}
+
+.gotoHome:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #0075f6;
+  border: 1px solid #0075f6;
+}
+
+.gotoHome:focus {
+  outline-color: white;
+}
+
+@media screen and (min-width: 480px) {
+  .gotoHome {
+    left: 36%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .gotoHome {
+    left: 39%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .gotoHome {
+    left: 42%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .gotoHome {
+    left: 43.6%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .gotoHome {
+    left: 45.5%;
+  }
+}
