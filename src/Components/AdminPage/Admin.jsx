@@ -9,7 +9,11 @@ class Admin extends Component {
     views: 0,
   };
   async componentDidMount() {
-    const result = await axios.get("http://localhost:5000/api/count");
+    // "http://localhost:5000/api/count"
+    const result = await axios.get(
+      "https://nisargpatel-portfolio.herokuapp.com/api/count"
+    );
+
     this.setState({ views: result.data[0].totViews });
   }
 
