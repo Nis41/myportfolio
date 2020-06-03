@@ -1,20 +1,25 @@
 import React from "react";
 import Hr from "../Common/Hr/Hr";
 import colorGridImage from "../HomePage/About/Images/color_grid.png";
-import myImage from "./Images/nisarg1-min.jpg";
+// import myImage from "./Images/nisarg1-min.jpg";
+import myImage from "./Images/why_hire.png";
 const MoreAboutMe = () => {
   return (
     <div className="moreAboutMe">
-      <h3 className="title">More About me</h3>
+      <h3 className="title">Why Work With Me?</h3>
       <Hr />
-      <p className="moreAboutMeText">
+      <div className="moreAboutMeText">
         <div className="textGridImage">
           <img src={colorGridImage} alt="gridImage" />
         </div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quasi
-        vero perferendis, labore eaque dolor saepe possimus quod tempore
-        cupiditate iusto facere accusantium debitis sunt deleniti beatae
-        quisquam, nihil ea.
+        <p>
+          Honestly, I possess all the skills and experience for building
+          user-friendly websites. I'm pretty confident that I am the best
+          candidate you're looking for. I'm very dedicated towards my work and i
+          am very competent and unique as well in the relevance of my work. I've
+          attached a copy of my resume detailing my experience, along with
+          description of websites created by me.
+        </p>
         <button
           onClick={() => {
             window.open("https://nisargpatel-portfolio.herokuapp.com/api/cv");
@@ -24,7 +29,7 @@ const MoreAboutMe = () => {
         >
           Download CV
         </button>
-      </p>
+      </div>
 
       <div className="myImageDiv">
         <img className="myImg" src={myImage} alt="myImage" />

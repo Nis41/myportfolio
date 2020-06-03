@@ -39,7 +39,7 @@
   height: auto;
   /* position: relative; */
   /* top: 5em; */
-  padding: 15% 1% 7% 1%;
+  padding: 15% 4% 7% 4%;
   text-align: center;
 }
 
@@ -48,13 +48,13 @@
   font-weight: 400;
   color: #727272;
   margin-top: 10%;
-  letter-spacing: 1px;
-  line-height: 1.7em;
+  letter-spacing: 1.2px;
+  line-height: 2em;
 }
 
 .downloadBtn {
-  left: 34%;
-  margin-top: 15%;
+  left: 31%;
+  margin-top: 7%;
   position: absolute;
   background-color: #0075f6;
   color: #fff;
@@ -72,7 +72,7 @@
 }
 
 .threeBoxes {
-  padding: 25% 4% 12% 4%;
+  padding: 15% 4% 12% 4%;
   display: flex;
 }
 
@@ -100,9 +100,26 @@
   color: #001d38;
   font-weight: 400;
 }
-.myImageDiv,
+.myImageDiv {
+  margin: 40% 4% 0 4%;
+  /* height: 20em; */
+  width: 92%;
+}
+
+.myImageDiv img {
+  height: 100%;
+  width: 100%;
+}
+
+.imgGridImage,
 .textGridImage {
   display: none;
+}
+
+@media screen and (min-width: 400px) {
+  .downloadBtn {
+    left: 32%;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -110,11 +127,16 @@
     height: 17em;
   }
   .downloadBtn {
-    margin-top: 13%;
-    left: 37%;
+    margin-top: 7%;
+    left: 36%;
+  }
+  .myImageDiv {
+    margin: 33% 4% 0 4%;
+    /* height: 20em; */
+    width: 92%;
   }
   .threeBoxes {
-    padding: 20% 4% 12% 4%;
+    padding: 12% 4%;
   }
 }
 
@@ -129,11 +151,16 @@
     padding: 7% 1% 0% 1%;
   }
   .downloadBtn {
-    margin-top: 11%;
+    margin-top: 5%;
     left: 39%;
   }
+  .myImageDiv {
+    margin: 30% 4% 0 4%;
+    /* height: 20em; */
+    width: 92%;
+  }
   .threeBoxes {
-    padding: 22% 4% 12% 4%;
+    padding: 17% 4% 12% 4%;
   }
 }
 
@@ -145,11 +172,15 @@
     height: 30em;
   }
   .downloadBtn {
-    margin-top: 8%;
-    left: 41%;
+    margin-top: 3%;
+    left: 42%;
+  }
+  .myImageDiv {
+    margin: 22% 4% 0 4%;
+    /* height: 20em; */
   }
   .threeBoxes {
-    padding: 18% 4% 10% 4%;
+    padding: 12% 4% 10% 4%;
   }
 }
 
@@ -189,7 +220,7 @@
   }
   .moreAboutMeText {
     margin: 0% 7%;
-    width: 30%;
+    width: 35%;
     height: 15em;
     position: absolute;
     right: 0;
@@ -214,7 +245,7 @@
     font-weight: bold;
     padding: 0.6em 2em;
     left: 0%;
-    margin-top: 20%;
+    margin-top: 8%;
     font-size: 1em;
   }
   .downloadBtn:hover {
@@ -225,16 +256,18 @@
     border: 1px solid #0075f6;
   }
   .myImageDiv {
-    width: 35%;
+    width: 42%;
     margin: 10%;
+    margin-left: 5%;
     height: 27em;
     margin-top: 6%;
+    background: transparent;
   }
   .myImageDiv .myImg {
     height: 100%;
     width: 100%;
-    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    /* box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2); */
+    /* transition: all 0.3s ease; */
   }
 
   .myImageDiv .myImg:hover {
@@ -264,7 +297,7 @@
   /* more about me ends */
 
   .threeBoxes {
-    padding: 12% 4% 10% 4%;
+    padding: 5% 4% 10% 4%;
   }
   .boxDiv span {
     font-size: 2.2em;
@@ -282,10 +315,40 @@
 @media screen and (min-width: 1280px) {
   .myImageDiv {
     height: 30em;
-    width: 30%;
+    width: 45%;
+    margin-top: 5%;
   }
+
+  .moreAboutMeText {
+    margin: 0% 7%;
+    width: 33%;
+    height: 15em;
+    position: absolute;
+    right: 0;
+    text-align: left;
+  }
+
+  .moreAboutMe p {
+    margin-top: 10%;
+    letter-spacing: 2px;
+    line-height: 2em;
+  }
+
+  .downloadBtn {
+    /* background-color: #0075f6; */
+    /* color: #fff; */
+    /* border-radius: 5px; */
+    /* border: none; */
+    /* text-decoration: none; */
+    /* font-weight: bold; */
+    /* padding: 0.6em 2em; */
+    /* left: 0%; */
+    margin-top: 7%;
+    /* font-size: 1em; */
+  }
+
   .threeBoxes {
-    padding: 5% 4% 10% 4%;
+    padding: 0% 4% 10% 4%;
   }
   .boxDiv span {
     font-size: 2.5em;

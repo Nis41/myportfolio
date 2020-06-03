@@ -5,9 +5,9 @@ const ContactText = () => {
     <div className="contactTextMain">
       <h4 className="contactTitle">If Not Now, When? Let's Work Together!</h4>
       <p className="contactText">
-        Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et
-        dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo
-        viverra.
+        Feel free to get in touch with me. I am always available to discussing
+        new projects, creative ideas or opportunities to be part of your
+        visions.
       </p>
     </div>
   );

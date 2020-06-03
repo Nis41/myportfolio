@@ -1,18 +1,23 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import Pagination from "./Pagination";
+import { paginate } from "./paginate";
+
 import axios from "axios";
 
 class UserMessage extends Component {
   state = {
     messages: [],
+    currentPage: 1,
+    pageSize: 4,
+    totalCount: 0,
   };
 
   async componentDidMount() {
     // "http://localhost:5000/api/contact"
-    const { data: messages } = await axios.get(
+    const { data } = await axios.get(
       "https://nisargpatel-portfolio.herokuapp.com/api/contact"
     );
-    this.setState({ messages });
+    this.setState({ messages: data, totalCount: data.length });
   }
 
   deleteMessage = async (e) => {
@@ -29,29 +34,39 @@ class UserMessage extends Component {
     this.setState({ messages });
   };
 
-  render() {
-    const messages = this.state.messages;
+  handlePageChange = (page) => {
+    this.setState({ currentPage: page });
+  };
 
+  getPagedData = () => {
+    const { pageSize, currentPage, messages } = this.state;
+
+    const data = paginate(messages, currentPage, pageSize);
+
+    return { messages: data };
+  };
+
+  render() {
+    const { messages } = this.getPagedData();
+    // const messages = this.state.messages;
     const card = messages.map((message) => {
       return (
         <div key={message._id} className="card messageCard">
-          <div className="card-header">{message.userName} </div>
+          <div className="card-header">{message.userName}</div>
           <div className="card-body">
             <h6 className="card-title">{message.createdAt}</h6>
-
             <p className="card-text">{message.userMessage}</p>
             <a href={`mailto:${message.userEmail}`} className="btn btn-primary">
               Email
             </a>
-            <a
-              href="#"
+            <button
               // onClick={this.deleteMessage(message._id)}
               onClick={this.deleteMessage}
               className="btn btn-danger delete"
               value={message._id}
             >
               Delete
-            </a>
+            </button>
           </div>
         </div>
       );
@@ -59,7 +74,15 @@ class UserMessage extends Component {
 
     return (
       <div>
-        <React.Fragment>{card}</React.Fragment>
+        <React.Fragment>
+          {card}
+          <Pagination
+            itemsCount={this.state.totalCount}
+            pageSize={this.state.pageSize}
+            currentPage={this.state.currentPage}
+            onPageChange={this.handlePageChange}
+          />
+        </React.Fragment>
       </div>
     );
   }
