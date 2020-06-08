@@ -21,6 +21,7 @@
     border-radius: 5px;
     padding: 2em 1.2em;
     overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* width */
