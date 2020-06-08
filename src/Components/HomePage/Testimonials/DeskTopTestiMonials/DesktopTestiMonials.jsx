@@ -48,7 +48,7 @@ const DesktopTestiMonials = () => {
                     <img src={Img2} alt="TestiMonialImageDesk" />
                   </div>
                   <div className="testiNameDivDesk">
-                    <h5 className="testiNameDesk">Dr.Jignesh Patel</h5>
+                    <h5 className="testiNameDesk">Dr. Jignesh Patel</h5>
                     <h6 className="testiPostDesk">Assistant professor,</h6>
 
                     <p className="testiPlaceDesk">DCS, HNGU</p>
@@ -56,9 +56,11 @@ const DesktopTestiMonials = () => {
                 </div>
                 <div className="contentTwoDesk">
                   <p className="testiReviewDesk">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Autem illo ad itaque fugit, saepe minus a omnis minima
-                    maiores
+                    I am very proud of his efforts and and he's aim is to turn
+                    his efforts into successful results. Nisarg takes his work
+                    very seriously and stays abreast of the newest developments
+                    in programming, which just makes him an excellent developer.
+                    I would highly recommend him for any projects.
                   </p>
                 </div>
               </div>
@@ -85,7 +87,7 @@ const DesktopTestiMonials = () => {
                 </div>
                 <div className="contentTwoDesk">
                   <p className="testiReviewDesk">
-                    I Succeed in online customer Survey with help of Nisarge
+                    I Succeed in online customer Survey with help of Nisarg
                     Patel,He is very curious to solve problems and also finished
                     my work on given deadline,i have trust on his work as his
                     support and work initiative never disappoint you.

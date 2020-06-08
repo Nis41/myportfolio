@@ -58,8 +58,11 @@ const MobileTestiMonials = () => {
               </div>
               <div className="contentTwo">
                 <p className="testiReview">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                  illo ad itaque fugit, saepe minus a omnis minima maiores{" "}
+                  I am very proud of his efforts and and he's aim is to turn his
+                  efforts into successful results. Nisarg takes his work very
+                  seriously and stays abreast of the newest developments in
+                  programming, which just makes him an excellent developer. I
+                  would highly recommend him for any projects.
                 </p>
               </div>
             </div>
@@ -79,7 +82,7 @@ const MobileTestiMonials = () => {
               </div>
               <div className="contentTwo">
                 <p className="testiReview">
-                  I Succeed in online customer Survey with help of Nisarge
+                  I Succeed in online customer Survey with help of Nisarg
                   Patel,He is very curious to solve problems and also finished
                   my work on given deadline,i have trust on his work as his
                   support and work initiative never disappoint you.{" "}
