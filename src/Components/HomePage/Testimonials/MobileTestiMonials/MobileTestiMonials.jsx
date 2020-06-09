@@ -3,7 +3,7 @@ import Img1 from "../Images/mama.jpeg";
 import Img2 from "../Images/jigneshSir.jpeg";
 import Img3 from "../Images/nehalfiya.jpeg";
 import Img4 from "../Images/karan.jpg";
-// import Img5 from "../Images/person_5.jpg";
+import Img5 from "../Images/poojamasi.jpeg";
 
 import "./MobileTestiMonials.css";
 
@@ -113,29 +113,28 @@ const MobileTestiMonials = () => {
               </div>
             </div>
           </div>
-          {/* <div className="carousel-item">
+          <div className="carousel-item">
             <div className="testiContentMain">
               <div className="contentOne">
                 <div className="testiImageDiv">
-                  <img src={Img1} alt="TestiMonialImage" />
+                  <img src={Img5} alt="TestiMonialImage" />
                 </div>
                 <div className="testiNameDiv">
-                  <h5 className="testiName">Jay Patel</h5>
-                  <h6 className="testiPost">Founder &#38; CEO,</h6>
+                  <h5 className="testiName">Pooja Patel</h5>
+                  <h6 className="testiPost">Android Application Developer,</h6>
 
-                  <p className="testiPlace" style={{ fontSize: "11px" }}>
-                    Blue Mountain Productions
-                  </p>
+                  <p className="testiPlace">Techflitter solutions</p>
                 </div>
               </div>
               <div className="contentTwo">
                 <p className="testiReview">
-                  Always available to help, incredibly proficient, hits
-                  deadlines without fail, hard working and trustworthy.
+                  I've seen all of his works and those were amazing. he's
+                  extremely good at building creatives websites and Is always
+                  punctual for the deadline.
                 </p>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <a

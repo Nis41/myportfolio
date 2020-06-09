@@ -3,7 +3,7 @@ import Img1 from "../Images/mama.jpeg";
 import Img2 from "../Images/jigneshSir.jpeg";
 import Img3 from "../Images/nehalfiya.jpeg";
 import Img4 from "../Images/karan.jpg";
-// import Img5 from "../Images/person_5.jpg";
+import Img5 from "../Images/poojamasi.jpeg";
 import "./DesktopTestiMonials.css";
 
 const DesktopTestiMonials = () => {
@@ -115,28 +115,31 @@ const DesktopTestiMonials = () => {
               </div>
             </div>
           </div>
-          {/* <div className="carousel-item">
+          <div className="carousel-item">
             <div className="testiDesktopDiv">
               <div className="testiContentMainDesk">
                 <div className="contentOneDesk">
                   <div className="testiImageDivDesk">
-                    <img src={Img3} alt="TestiMonialImageDesk" />
+                    <img src={Img5} alt="TestiMonialImageDesk" />
                   </div>
                   <div className="testiNameDivDesk">
-                    <h5 className="testiNameDesk">Jane Doe</h5>
-                    <h6 className="testiPostDesk">Software Engineer</h6>
+                    <h5 className="testiNameDesk">Pooja Patel</h5>
+                    <h6 className="testiPostDesk" style={{ fontSize: "0.9em" }}>
+                      Android Application Developer,
+                    </h6>
 
-                    <p className="testiPlaceDesk">Google</p>
+                    <p className="testiPlaceDesk">Techflitter solutions</p>
                   </div>
                 </div>
                 <div className="contentTwoDesk">
                   <p className="testiReviewDesk">
-                    Always available to help, incredibly proficient, hits
-                    deadlines without fail, hard working and trustworthy.
+                    I've seen all of his works and those were amazing. he's
+                    extremely good at building creatives websites and Is always
+                    punctual for the deadline.
                   </p>
                 </div>
               </div>
-              <div className="testiContentMainDesk">
+              {/* <div className="testiContentMainDesk">
                 <div className="contentOneDesk">
                   <div className="testiImageDivDesk">
                     <img src={Img4} alt="TestiMonialImageDesk" />
@@ -154,9 +157,9 @@ const DesktopTestiMonials = () => {
                     deadlines without fail, hard working and trustworthy.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
-          </div> */}
+          </div>
         </div>
         <a
           className="carousel-control-prev moveBtnDesk leftDesk"
