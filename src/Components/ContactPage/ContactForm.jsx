@@ -64,12 +64,19 @@ class ContactForm extends Component {
 
     let userData = { ...this.state.data };
     this.setState({ isSending: true });
-    await axios.post(CONTACT_API_URL, userData);
+
+    axios
+      .post(CONTACT_API_URL, userData)
+      .then((result) => {
+        toast("Message Sent!");
+        userData = { userName: "", userEmail: "", userMessage: "" };
+        this.setState({ data: userData, isSending: false });
+      })
+      .catch((err) => {
+        console.log(err);
+      });
 
     // console.log(result);
-    toast("Message Sent!");
-    userData = { userName: "", userEmail: "", userMessage: "" };
-    this.setState({ data: userData, isSending: false });
   };
 
   validateProperty = ({ name, value }) => {
