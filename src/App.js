@@ -18,7 +18,7 @@ function App() {
       <Header />
       <div className="content">
         <Switch>
-          <Route path="/hithere" component={AdminPage} />
+          <Route path="/kemchomajama" component={AdminPage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/skills" component={SkillsPage} />
           <Route path="/contact" component={ContactPage} />

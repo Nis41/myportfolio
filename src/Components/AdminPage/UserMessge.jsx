@@ -24,8 +24,9 @@ class UserMessage extends Component {
     const msgId = e.currentTarget.getAttribute("value");
     const time = new Date().toLocaleTimeString();
     // `http://localhost:5000/api/contact/${msgId}`
+    // https://nisargpatel-portfolio.herokuapp.com
     const result = await axios.put(
-      `https://nisargpatel-portfolio.herokuapp.com/api/contact/${msgId}`,
+      `http://localhost:5000/api/contact/${msgId}`,
       {
         time: time,
       }
