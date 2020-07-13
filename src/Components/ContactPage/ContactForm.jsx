@@ -23,7 +23,7 @@ class ContactForm extends Component {
     userEmail: Joi.string()
       .trim()
       .email()
-      .regex(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)
+      .regex(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/)
       .required()
       .error(() => {
         return {
