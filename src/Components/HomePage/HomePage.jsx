@@ -8,7 +8,6 @@ import "./HomePage.css";
 
 class HomePage extends Component {
   state = {};
-  CONTACT_API_URL = "http://localhost:5000/api/contact";
   CONTACT_API_URL = "https://nisargpatel-portfolio.herokuapp.com/api/count";
   componentDidMount() {
     fetch(this.CONTACT_API_URL, {

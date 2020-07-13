@@ -22,10 +22,13 @@ class UserMessage extends Component {
 
   deleteMessage = async (e) => {
     const msgId = e.currentTarget.getAttribute("value");
-
+    const time = new Date().toLocaleTimeString();
     // `http://localhost:5000/api/contact/${msgId}`
-    const result = await axios.delete(
-      `https://nisargpatel-portfolio.herokuapp.com/api/contact/${msgId}`
+    const result = await axios.put(
+      `https://nisargpatel-portfolio.herokuapp.com/api/contact/${msgId}`,
+      {
+        time: time,
+      }
     );
     const deletedMessage = result.data;
     const messages = this.state.messages.filter(
