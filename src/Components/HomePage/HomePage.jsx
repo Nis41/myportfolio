@@ -4,11 +4,13 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Testimonials from "./Testimonials/Testimonials";
 import Discuss from "./Discuss/Discuss";
+
+import { Constant } from "../../lib/Constants";
 import "./HomePage.css";
 
 class HomePage extends Component {
   state = {};
-  CONTACT_API_URL = "https://nisargpatel-portfolio.herokuapp.com/api/count";
+  CONTACT_API_URL = `${Constant.BASE_URL}/count`;
   componentDidMount() {
     fetch(this.CONTACT_API_URL, {
       method: "PUT",

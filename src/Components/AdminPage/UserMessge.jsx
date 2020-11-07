@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import axios from "axios";
+
 import Pagination from "./Pagination";
 import { paginate } from "./paginate";
-
-import axios from "axios";
+import { Constant } from "../../lib/Constants";
 
 class UserMessage extends Component {
   state = {
@@ -13,24 +14,16 @@ class UserMessage extends Component {
   };
 
   async componentDidMount() {
-    // "http://localhost:5000/api/contact"
-    const { data } = await axios.get(
-      "https://nisargpatel-portfolio.herokuapp.com/api/contact"
-    );
+    const { data } = await axios.get(`${Constant.BASE_URL}/contact`);
     this.setState({ messages: data, totalCount: data.length });
   }
 
   deleteMessage = async (e) => {
     const msgId = e.currentTarget.getAttribute("value");
     const time = new Date().toLocaleTimeString();
-    // `http://localhost:5000/api/contact/${msgId}`
-    // https://nisargpatel-portfolio.herokuapp.com
-    const result = await axios.put(
-      `https://nisargpatel-portfolio.herokuapp.com/api/contact/${msgId}`,
-      {
-        time: time,
-      }
-    );
+    const result = await axios.put(`${Constant.BASE_URL}/contact/${msgId}`, {
+      time: time,
+    });
     const deletedMessage = result.data;
     const messages = this.state.messages.filter(
       (m) => m._id !== deletedMessage._id

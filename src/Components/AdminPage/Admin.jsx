@@ -3,16 +3,15 @@ import axios from "axios";
 import TotalViews from "./TotalViews";
 import UserMessage from "./UserMessge";
 
+import { Constant } from "../../lib/Constants";
 import "./Admin.css";
+
 class Admin extends Component {
   state = {
     views: 0,
   };
   async componentDidMount() {
-    // "http://localhost:5000/api/count"
-    const result = await axios.get(
-      "https://nisargpatel-portfolio.herokuapp.com/api/count"
-    );
+    const result = await axios.get(`${Constant.BASE_URL}/count`);
 
     this.setState({ views: result.data[0].totViews });
   }

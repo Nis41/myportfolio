@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import Joi from "joi-browser";
 import axios from "axios";
 import { toast } from "react-toastify";
-// import "react-toastify/dist";
+
+import { Constant } from "../../lib/Constants";
+
 class ContactForm extends Component {
   state = {
     data: { userName: "", userEmail: "", userMessage: "" },
@@ -58,9 +60,7 @@ class ContactForm extends Component {
     if (errors) return;
 
     //call the server
-    // const CONTACT_API_URL = "http://localhost:5000/api/contact";
-    const CONTACT_API_URL =
-      "https://nisargpatel-portfolio.herokuapp.com/api/contact";
+    const CONTACT_API_URL = `${Constant.BASE_URL}/contact`;
 
     let userData = { ...this.state.data };
     this.setState({ isSending: true });
