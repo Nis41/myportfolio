@@ -26,7 +26,7 @@ class UserMessage extends Component {
     // `http://localhost:5000/api/contact/${msgId}`
     // https://nisargpatel-portfolio.herokuapp.com
     const result = await axios.put(
-      `http://localhost:5000/api/contact/${msgId}`,
+      `https://nisargpatel-portfolio.herokuapp.com/api/contact/${msgId}`,
       {
         time: time,
       }

@@ -26,7 +26,7 @@ const CategoryBtn = (props) => {
             }}
           >
             {categoryName}
-            <i class="fa fa-caret-down caretDown" aria-hidden="true"></i>
+            <i className="fa fa-caret-down caretDown" aria-hidden="true"></i>
           </div>
         </div>
       </div>
